@@ -3,28 +3,13 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+My name is Filipe Duarte and I’m software developer. I’m Portuguese, although born in the UK, and I am currently living in London, working for UI Centric. I try to blog mostly about <a href="http://fmendo.com/wp-content/uploads/2015/01/WP_20131019_094.jpg"><img class=" wp-image-56 size-medium alignright" src="http://fmendo.com/wp-content/uploads/2015/01/WP_20131019_094-300x169.jpg" alt="WP_20131019_094" width="300" height="169" /></a>developer stuff, from projects I’m working on, to problems and solutions I find while coding (which hopefully might help others), with the occasion plug for an app or two I might put out there.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I’m a Microsoft enthusiast whether we’re talking about tech, software, dev stuff, or research, and it would be a huge achievement for me if one day I got to work there, in the meantime I’m learning as much as I can, and working with a few interesting companies and their exciting projects.
 
-There are currently two themes built on Poole:
+When I’m not coding, I’m usually found behind a good book, enjoying a good movie, shredding on my guitar, riding some waves or some slopes (depending on the season), or saving the world in some videogame.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+<h3>Background</h3>
+I am currently a developer at <a title="UI Centric" href="http://uicentric.com/"><span style="text-decoration: underline;"><span style="color: #0066cc;">UI Centric</span></span></a>, building awesome Universal Apps for windows and windows phone.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+I hold a <a title="Course Structure" href="http://www.ua.pt/ensino/PageCourse.aspx?id=23&amp;p=4&amp;a=9"><span style="text-decoration: underline;"><span style="color: #0066cc;">Masters in Computer Engineering</span></span></a> from the <a title="Universidade de Aveiro" href="http://www.ua.pt"><span style="text-decoration: underline;"><span style="color: #0066cc;">University of Aveiro</span></span></a>, in Portugal, where my love for programming began. I ended up writing my Masters’ dissertation on “Interaction with large displays in a public space via a mobile device” where I did a lot of Human-Computer Interaction and User Experience work, along with a bit of Computer Graphics on the side. The result is still in display in the university, and more <a title="DETI Interact" href="http://fmendo.com/deti-interact"><span style="text-decoration: underline;"><span style="color: #0066cc;">details</span></span></a> are available in my <a title="Projects" href="http://fmendo.com/projects"><span style="text-decoration: underline;"><span style="color: #0066cc;">Projects</span></span></a> page. While in university I was also a Volunteer Student in the organization of an HCI conference in my University: <a title="interaccao 2010" href="http://www3.ca.ua.pt/interaccao2010/"><span style="text-decoration: underline;"><span style="color: #0066cc;">Interacção 2010</span></span></a>.
