@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows 10 App: MyShelf
+title: Windows 10 App - MyShelf
 categories: [API, App, C#, GoodReads, Project, UWP, Windows, Windows 10, Xaml]
 ---
 
