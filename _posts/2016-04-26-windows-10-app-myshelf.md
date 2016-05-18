@@ -12,7 +12,7 @@ There were a few reasons behind building this app: the main website looked a bit
 
 There is still more work to be done, as always, but the it currently provides enough functionality that I was finally comfortable with publishing it. You've got your main feed, where the social network aspect of goodreads takes place. Also, just like the website, whatever you're currently reading is accessible right from the main page, so you can quickly jump in and out of the app for a quick update.
 
-<a href="http://fmendo.com/wp-content/uploads/2016/04/book.png" rel="attachment wp-att-104"><img class="aligncenter  wp-image-104" src="http://fmendo.com/wp-content/uploads/2016/04/book-1024x631.png" alt="book" width="641" height="395" /></a>
+<a href="http://fmendo.com/wp-content/uploads/2016/04/book.png" rel="attachment wp-att-104"><img class="aligncenter  wp-image-104" src="../assets/book.png" alt="book" width="641" height="395" /></a>
 
 You're also able to search for book and author information, and add books to your bookshelves. There isn't much shelf management implemented yet, the basic is there, more will come. You can also check up on your friend's profiles and see what they've been doing.
 
