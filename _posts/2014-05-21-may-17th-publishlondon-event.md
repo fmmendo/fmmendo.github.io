@@ -1,8 +1,6 @@
 ---
 layout: post
 title: May 17th //Publish/London event
-date: 2014-05-21 07:30
-author: fmendo
 comments: true
 categories: [Article, Event, Microsoft, Publish, Windows, Windows Phone]
 ---
