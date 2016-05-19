@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Audio Encoding troubles in WinRT
-date: 2014-11-22 14:51
-author: fmendo
 comments: true
 categories: [Audio, Encoding, Error, WinRT]
 ---
