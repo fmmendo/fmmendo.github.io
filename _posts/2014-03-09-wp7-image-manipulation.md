@@ -1,8 +1,6 @@
 ---
 layout: post
 title: WP7 Image Manipulation
-date: 2014-03-09 16:24
-author: fmendo
 comments: true
 categories: [C#, Development, Gestures, Windows Phone, Xaml]
 ---
