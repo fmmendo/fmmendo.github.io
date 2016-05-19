@@ -43,51 +43,54 @@ Now for that Storyboard taking up half the code. While not entirely needed, it l
 Now all we need to do is get the code to actually work. Onto the code behind!
 
 The first bit is easy, you pick up the DeltaManipulation for either a scale or a translation, apply the transform and it's done. After playing around in the app you lose your image by dragging it off-screen and it's back to the drawing board... so let's have a look at the code to make it behave nicely:
-<pre class="brush: csharp;">    private void photo_ManipulationDelta(object sender, ManipulationDeltaEventArgs e)
+~~~chsarp
+    private void photo_ManipulationDelta(object sender, ManipulationDeltaEventArgs e)
     {
-      if (e.DeltaManipulation.Scale.X != 0.0 &amp;&amp; e.DeltaManipulation.Scale.Y != 0.0)
+      if (e.DeltaManipulation.Scale.X != 0.0 && e.DeltaManipulation.Scale.Y != 0.0)
       {
         double tmp = ScaleTransform.ScaleX * e.DeltaManipulation.Scale.X;
-        if (tmp &lt; 1.0) //min
+        if (tmp < 1.0) //min
           tmp = 1.0;
-        else if (tmp &gt; 4.0) // and max
+        else if (tmp > 4.0) // and max
           tmp = 4.0;
         ScaleTransform.ScaleX = tmp;
         ScaleTransform.ScaleY = tmp;
       }
-</pre>
+~~~
 Ok, so for scaling we're reasonably safe, I'll just add a minimum and maximum zoom to avoid some disasters. Moving on:
-<pre class="brush: csharp;">      else
+~~~csharp
+      else
       {
         Image photo = sender as Image;
         var transformgroup = photo.RenderTransform as TransformGroup;
-        var transform = transformgroup.Children.First(c =&gt; c is TranslateTransform) as TranslateTransform;
+        var transform = transformgroup.Children.First(c => c is TranslateTransform) as TranslateTransform;
         if (transform != null)
         {
           // Compute the new X component of the transform
           double x = transform.X + e.DeltaManipulation.Translation.X;
           double y = transform.Y + e.DeltaManipulation.Translation.Y;
-</pre>
+~~~
 So first we need to get the current transformation, and add the new changes, nothing fancy. The interesting bit is what comes next. We want to keep the image from going out of bounds, and we want the user to be able to pan around a zoomed in image. One way to do it is to have its movement limited by its edges, like the building gallery does. So when one drags and image to the right and its left edge reaches the left edge of the screen, there's no point in moving it any more. So we end up with this:
-<pre class="brush: csharp;">          // going left
-          if (e.DeltaManipulation.Translation.X &lt; 0)
+~~~csharp
+          // going left
+          if (e.DeltaManipulation.Translation.X < 0)
           {
-            if (Application.Current.Host.Content.ActualWidth - photo.ActualWidth * ScaleTransform.ScaleX &gt; 0) return;
-            if (x * ScaleTransform.ScaleX &lt; Application.Current.Host.Content.ActualWidth - photo.ActualWidth * ScaleTransform.ScaleX)
+            if (Application.Current.Host.Content.ActualWidth - photo.ActualWidth * ScaleTransform.ScaleX > 0) return;
+            if (x * ScaleTransform.ScaleX < Application.Current.Host.Content.ActualWidth - photo.ActualWidth * ScaleTransform.ScaleX)
               x = (Application.Current.Host.Content.ActualWidth / ScaleTransform.ScaleX) - photo.ActualWidth;
           }
           // going up         
-          if (e.DeltaManipulation.Translation.Y &lt; 0)
+          if (e.DeltaManipulation.Translation.Y < 0)
           {
             if ((Application.Current.Host.Content.ActualHeight - 206) - photo.ActualHeight * ScaleTransform.ScaleX &gt; 0) return;
-            if (y * ScaleTransform.ScaleX &lt; (Application.Current.Host.Content.ActualHeight - 206) - photo.ActualHeight * ScaleTransform.ScaleX)
+            if (y * ScaleTransform.ScaleX < (Application.Current.Host.Content.ActualHeight - 206) - photo.ActualHeight * ScaleTransform.ScaleX)
               y = ((Application.Current.Host.Content.ActualHeight - 206) / ScaleTransform.ScaleX) - photo.ActualHeight;
           }
           // going right
-          if (e.DeltaManipulation.Translation.X &gt; 0 &amp;&amp; x &gt; 0)
+          if (e.DeltaManipulation.Translation.X > 0 && x > 0)
             x = 0;
           // going down
-          if (e.DeltaManipulation.Translation.Y &gt; 0 &amp;&amp; y &gt; 0)
+          if (e.DeltaManipulation.Translation.Y > 0 && y > 0)
             y = 0;
 
           // Apply the computed value to the transform
@@ -96,10 +99,11 @@ So first we need to get the current transformation, and add the new changes, not
         }
       }
     }
-</pre>
+~~~
 So now the Image is zooming and moving as intended, let's add a bit of oomph to the manipulation.
 This is made really easy with what the framework gives us. Using e.IsInertial and e.FinalVelocities is pretty much cheating. We just have to ensure we're not flinging the image out of bounds.
-<pre class="brush: csharp;">    private void photo_ManipulationCompleted(object sender, ManipulationCompletedEventArgs e)
+~~~csharp
+    private void photo_ManipulationCompleted(object sender, ManipulationCompletedEventArgs e)
     {
       if (e.IsInertial)
       {
@@ -108,31 +112,31 @@ This is made really easy with what the framework gives us. Using e.IsInertial an
         double dx = e.FinalVelocities.LinearVelocity.X / 10.0;
         double dy = e.FinalVelocities.LinearVelocity.Y / 10.0;
         var transformgroup = photo.RenderTransform as TransformGroup;
-        var transform = transformgroup.Children.First(c =&gt; c is TranslateTransform) as TranslateTransform;
+        var transform = transformgroup.Children.First(c => c is TranslateTransform) as TranslateTransform;
         if (transform != null)
         {
           double x = transform.X + dx;
           double y = transform.Y + dy;
 
           // going left
-          if (dx &lt; 0)
+          if (dx < 0)
           {
-            if (Application.Current.Host.Content.ActualWidth - photo.ActualWidth * ScaleTransform.ScaleX &gt; 0) return;
-            if (x * ScaleTransform.ScaleX &lt; Application.Current.Host.Content.ActualWidth - photo.ActualWidth * ScaleTransform.ScaleX)
+            if (Application.Current.Host.Content.ActualWidth - photo.ActualWidth * ScaleTransform.ScaleX > 0) return;
+            if (x * ScaleTransform.ScaleX < Application.Current.Host.Content.ActualWidth - photo.ActualWidth * ScaleTransform.ScaleX)
               x = (Application.Current.Host.Content.ActualWidth / ScaleTransform.ScaleX) - photo.ActualWidth;
           }
           // going up         
-          if (dy &lt; 0)
+          if (dy < 0)
           {
-            if ((Application.Current.Host.Content.ActualHeight - 206) - photo.ActualHeight * ScaleTransform.ScaleX &gt; 0) return;
-            if (y * ScaleTransform.ScaleX &lt; (Application.Current.Host.Content.ActualHeight - 206) - photo.ActualHeight * ScaleTransform.ScaleX)
+            if ((Application.Current.Host.Content.ActualHeight - 206) - photo.ActualHeight * ScaleTransform.ScaleX > 0) return;
+            if (y * ScaleTransform.ScaleX < (Application.Current.Host.Content.ActualHeight - 206) - photo.ActualHeight * ScaleTransform.ScaleX)
               y = ((Application.Current.Host.Content.ActualHeight - 206) / ScaleTransform.ScaleX) - photo.ActualHeight;
           }
           // going right
-          if (dx &gt; 0 &amp;&amp; x &gt; 0)
+          if (dx > 0 && x > 0)
             x = 0;
           // going down
-          if (dy &gt; 0 &amp;&amp; y &gt; 0)
+          if (dy > 0 && y > 0)
             y = 0;
 
           // Apply the computed value to the animation
@@ -144,7 +148,7 @@ This is made really easy with what the framework gives us. Using e.IsInertial an
         }
       }
     }
-</pre>
+~~~
 And that's it. Now, this is far(!) from being production code, and there a few bugs here and there, but it was cool playing around with these gestures.
 
 Next step would be to implement that nice bounce when you reach the edges of the screen. Hmmm...
