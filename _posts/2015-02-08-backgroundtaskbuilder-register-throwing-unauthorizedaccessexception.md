@@ -1,8 +1,6 @@
 ---
 layout: post
 title: BackgroundTaskBuilder.Register throwing UnauthorizedAccessException
-date: 2015-02-08 21:52
-author: fmendo
 comments: true
 categories: [Background Task, C#, Error, Error, Windows Phone]
 ---
