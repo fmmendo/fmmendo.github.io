@@ -41,7 +41,7 @@ Now for that Storyboard taking up half the code. While not entirely needed, it l
 Now all we need to do is get the code to actually work. Onto the code behind!
 
 The first bit is easy, you pick up the DeltaManipulation for either a scale or a translation, apply the transform and it's done. After playing around in the app you lose your image by dragging it off-screen and it's back to the drawing board... so let's have a look at the code to make it behave nicely:
-~~~chsarp
+~~~csharp
     private void photo_ManipulationDelta(object sender, ManipulationDeltaEventArgs e)
     {
       if (e.DeltaManipulation.Scale.X != 0.0 && e.DeltaManipulation.Scale.Y != 0.0)
