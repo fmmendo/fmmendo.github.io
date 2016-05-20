@@ -10,14 +10,14 @@ So one of my biggest issues that day was that I was reading some data off of Is
 ~~~csharp
 object o = StorageUtility.ReadSetting(Utilities.PLAN_LOG);
 var log = o as PlanLog;
-var lastNWorkouts = log.Workouts.OrderByDescending(w =&gt; w.Date)
-                                .Where(w =&gt; w.Exercises.Any(e =&gt; e.ExerciseName.Equals(config.TargetExercise)))
+var lastNWorkouts = log.Workouts.OrderByDescending(w > w.Date)
+                                .Where(w => w.Exercises.Any(e => e.ExerciseName.Equals(config.TargetExercise)))
                                 .Take(config.ConsecutiveFailCount);
-var lastWorkout = lastNWorkouts.First().Exercises.First(e =&gt; e.ExerciseName.Equals(config.TargetExercise));
+var lastWorkout = lastNWorkouts.First().Exercises.First(e => e.ExerciseName.Equals(config.TargetExercise));
 ~~~
 This is part of my <a title="WorkoutTracker on github" href="https://github.com/fmmendo/WorkoutTracker">Workout Tracking</a> library that I'm using in my <a title="fmendo: WP App - StrongliftsTracker" href="http://fmendo.com/stronglifts-tracker-app">Stronglifts app</a> and trying to extend into something (hopefully) quite useful. So, the first bit is quite simple. I have a little utility class I'm using to read and write to IS which I won't bother you with right now. I get the data and set a couple of LINQ queries to get the bits that I need.
 ~~~csharp
-CurrentWorkout.ExerciseList.FirstOrDefault(e =>; e.Name.Equals(config.TargetExercise)).Sets = new List(lastWorkout.Sets)
+CurrentWorkout.ExerciseList.FirstOrDefault(e => e.Name.Equals(config.TargetExercise)).Sets = new List(lastWorkout.Sets)
 ~~~
 My idea was that I had this data, fresh out of IS, and I wanted to copy it to my Model, which the ViewModel would then access to do it's thing. So rhat this bit of code was supposed to do was create a new List of Set, copying the elements from what I read from Isolated Storage. What was in fact happening is that I was creating a new list but the Set instances were referencing the original data. So when I then modified the data on my new list, the data in Isolated Storage would also get those changes (without me explicitly writing to it).
 
