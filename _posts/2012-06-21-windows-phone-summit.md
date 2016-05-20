@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Windows Phone Summit
-date: 2012-06-21 11:26
-author: fmendo
 comments: true
 categories: [Article, Event, Microsoft, Windows Phone]
 ---
