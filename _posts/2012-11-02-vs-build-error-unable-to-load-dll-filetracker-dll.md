@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VS - Build error: Unable to load DLL "FileTracker.dll"
+title: VS - Build error - Unable to load DLL "FileTracker.dll"
 comments: true
 categories: [Error, Error, Visual Studio]
 ---
