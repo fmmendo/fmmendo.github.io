@@ -41,6 +41,7 @@ Now for that Storyboard taking up half the code. While not entirely needed, it l
 Now all we need to do is get the code to actually work. Onto the code behind!
 
 The first bit is easy, you pick up the DeltaManipulation for either a scale or a translation, apply the transform and it's done. After playing around in the app you lose your image by dragging it off-screen and it's back to the drawing board... so let's have a look at the code to make it behave nicely:
+
 ```csharp
     private void photo_ManipulationDelta(object sender, ManipulationDeltaEventArgs e)
     {
@@ -55,7 +56,9 @@ The first bit is easy, you pick up the DeltaManipulation for either a scale or a
         ScaleTransform.ScaleY = tmp;
       }
 ```
+
 Ok, so for scaling we're reasonably safe, I'll just add a minimum and maximum zoom to avoid some disasters. Moving on:
+
 ```csharp
       else
       {
@@ -68,7 +71,9 @@ Ok, so for scaling we're reasonably safe, I'll just add a minimum and maximum zo
           double x = transform.X + e.DeltaManipulation.Translation.X;
           double y = transform.Y + e.DeltaManipulation.Translation.Y;
 ```
+
 So first we need to get the current transformation, and add the new changes, nothing fancy. The interesting bit is what comes next. We want to keep the image from going out of bounds, and we want the user to be able to pan around a zoomed in image. One way to do it is to have its movement limited by its edges, like the building gallery does. So when one drags and image to the right and its left edge reaches the left edge of the screen, there's no point in moving it any more. So we end up with this:
+
 ```csharp
           // going left
           if (e.DeltaManipulation.Translation.X < 0)
@@ -98,8 +103,10 @@ So first we need to get the current transformation, and add the new changes, not
       }
     }
 ```
+
 So now the Image is zooming and moving as intended, let's add a bit of oomph to the manipulation.
 This is made really easy with what the framework gives us. Using e.IsInertial and e.FinalVelocities is pretty much cheating. We just have to ensure we're not flinging the image out of bounds.
+
 ```csharp
     private void photo_ManipulationCompleted(object sender, ManipulationCompletedEventArgs e)
     {
@@ -147,6 +154,7 @@ This is made really easy with what the framework gives us. Using e.IsInertial an
       }
     }
 ```
+
 And that's it. Now, this is far(!) from being production code, and there a few bugs here and there, but it was cool playing around with these gestures.
 
 Next step would be to implement that nice bounce when you reach the edges of the screen. Hmmm...
