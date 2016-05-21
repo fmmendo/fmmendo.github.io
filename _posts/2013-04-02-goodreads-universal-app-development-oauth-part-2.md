@@ -15,11 +15,11 @@ We need to get our API and Secret keys from <a title="http://www.goodreads.com/a
 Before we begin, a quick note: on your <a title="http://www.goodreads.com/api/keys" href="http://www.goodreads.com/api/keys">GoodReads API keys page</a>, there's an optional field you can use to write down your callback URL. Go ahead and do that now. You can get your app's callback url by calling WebAuthenticationBroker.GetCurrentApplicationCallbackUri().
 
 For the request_token request, GoodReads is expecting something along the lines of:
-~~~html
+```html
 http://www.goodreads.com/oauth/request_token?oauth_nonce=95613465 &oauth_timestamp=1305586162 &oauth_consumer_key= &oauth_signature_method=HMAC-SHA1 &oauth_version=1.0 &oauth_signature=
-~~~
+```
 In order to prepare our URL, we first need to get our parameters in order. These are the basic parameters used for oauth, nothing special. I stuck them in a SortedDictionary so I can later append them to the URL.
-~~~csharp
+```csharp
 public static SortedDictionary<string, string> GetOAuthParameters(string apikey, string secret)
 {
     Random random = new Random();
@@ -37,9 +37,9 @@ public static SortedDictionary<string, string> GetOAuthParameters(string apikey,
 
     return parameters;
 }
-~~~
+```
 With the parameters ready, we can now set up the call. We need to build a string consisting of the GoodReads request_token URL with the parameters added at the end. Note that the API secret must be signed with an HMAC-SHA1 hash.
-~~~csharp
+```csharp
 public static string CalculateOAuthSignedUrl(SortedDictionary<string, string> parameters, string url, string secret, bool toggle)
 {
     StringBuilder baseString = new StringBuilder();
@@ -75,9 +75,9 @@ public static string CalculateOAuthSignedUrl(SortedDictionary<string, string> pa
 
     return url + "?" + baseString.ToString() + "&oauth_signature=" + Uri.EscapeDataString(CryptographicBuffer.EncodeToBase64String(CryptographicEngine.Sign(cryptoKey, dataString)));
 }
-~~~
+```
 With the URL ready and signed, all we need is to fire an HTTP GET Request and process the response. So far the order of things looks like this:
-~~~csharp
+```csharp
 public async static Task GetAuthTokens()
 {
     string baseUrl = "http://www.goodreads.com/oauth/request_token";
@@ -88,9 +88,9 @@ public async static Task GetAuthTokens()
     string response = await HttpGet(signedUrl);
     SetRequestToken(response);
 }
-~~~
+```
 After we do the GET request we must parse the response for our oauth_token and oauth_token_secret:
-~~~csharp
+```csharp
 private static void SetRequestToken(string response)
 {
     string[] keyValPairs = response.Split('&');
@@ -112,13 +112,13 @@ private static void SetRequestToken(string response)
         }
     }
 }
-~~~
+```
 We can now store these safely and proceed to a very important moment...
 <h1>Authentication</h1>
 Almost there!
 
 Now that we've got the tokens, we can use the WebAuthenticationResult to log a user in to GoodReads. This prompts the aforementioned 'Connect to a Service' dialog, which loads the GoodReads login page. The user logs in, authorizes our app, and we're thrown back into our code, to do the last bit of processing.
-~~~csharp
+```csharp
 public async void Authenticate()
 {
     await GetAuthTokens();
@@ -131,9 +131,9 @@ public async void Authenticate()
         await GetAccessToken(result.ResponseData);
     }
 }
-~~~
+```
 Once the login succeeds, we must parse the data in the ResponseData property to get our access_token from http://www.goodreads.com/oauth/access_token. So we very quickly to everything again: set up the parameters, don't forget our oauth_token, generate the URL, hash the secret key, fir the HTTP GET, and parse the response.
-~~~csharp
+```csharp
 public static async Task GetAccessToken(string responseData) 
 { 
     string oauth_token = null; 
@@ -177,7 +177,7 @@ public static void CalculateAccessToken(string responseData)
         }
     }
 }
-~~~
+```
 Phew! Done! We can now make calls to all the GoodReads API methods. Next step is to store the keys so they persist between uses, and maybe even roam between devices.
 
 Well, that's it for now. I'll be back once I implement the API and am ready for the next step!

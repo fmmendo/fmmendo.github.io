@@ -13,11 +13,11 @@ My plan is to do this in 2-3 steps: first I want to get my API calls doing what
 Simple! So let's get cracking!
 <h1>Setting up a basic API call</h1>
 So, the first thing on the agenda is to get familiar with the <a title="http://www.goodreads.com/api" href="http://www.goodreads.com/api" target="_blank">API that GoodReads kindly supplies </a>and get a library making the calls I need, and processing the data. Some API calls require a user to be authenticated, while others are free to use at any time. Well deal with authentication later, right now I just want to get the basic calls working, get the response and see the data I am given to work with. The search function is called like this:
-~~~html
+```html
 http://www.goodreads.com/search.xml?key=x1o7WGS4UEMFOGRtxIPoJA&q=Ender%27s+Game
-~~~
+```
 First, we need to hit this with an with an Http Get Request:
-~~~csharp
+```csharp
 private static async Task HttpGet(string url)
 {
     HttpWebRequest Request = (HttpWebRequest)WebRequest.Create(url);
@@ -33,9 +33,9 @@ private static async Task HttpGet(string url)
     }
     return httpResponse;
 }
-~~~
+```
 We set whatever we want to the query parameter, make the call, and get a neatly organized XML encoded result. Looking at the returned XML, and making some other calls for other functions we can easily construct a few data structures to store our data, so we can go ahead a process the response:
-~~~csharp
+```csharp
 string results = await HttpGet(BASEURL + SEARCH + "?q=" + query + KEY);
 var document = XDocument.Parse(results);
 var items = document.Descendants("work");
@@ -75,7 +75,7 @@ foreach (var item in items)
         }
     );
 }
-~~~
+```
 Done! Looks good so far. I will need to add a few changes to this call since it only returns the first 20 results by default, there is a 'page' parameter that can be sent with the GET request, but I'll work that in later.
 
 Next up, user authentication.
