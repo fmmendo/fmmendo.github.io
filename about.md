@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-My name is Filipe Duarte and I’m software developer. I’m Portuguese, although born in the UK, and I am currently living in London, working for UI Centric. I try to blog mostly about <a href="http://fmendo.com/wp-content/uploads/2015/01/WP_20131019_094.jpg"><img class=" wp-image-56 size-medium alignright" src="http://fmendo.com/wp-content/uploads/2015/01/WP_20131019_094-300x169.jpg" alt="WP_20131019_094" width="300" height="169" /></a>developer stuff, from projects I’m working on, to problems and solutions I find while coding (which hopefully might help others), with the occasion plug for an app or two I might put out there.
+My name is Filipe Duarte and I’m software developer. I’m Portuguese, although born in the UK, and I am currently living in London, working for UI Centric. I try to blog mostly about <img src="../assets/WP_20131019_094.jpg" width="300" height="169" />developer stuff, from projects I’m working on, to problems and solutions I find while coding (which hopefully might help others), with the occasion plug for an app or two I might put out there.
 
 I’m a Microsoft enthusiast whether we’re talking about tech, software, dev stuff, or research, and it would be a huge achievement for me if one day I got to work there, in the meantime I’m learning as much as I can, and working with a few interesting companies and their exciting projects.
 
