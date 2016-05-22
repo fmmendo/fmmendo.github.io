@@ -2,11 +2,14 @@
 layout: post
 title: DETI Interact
 comments: true
-categories: [.NET, Android, C#, Project, WPF, Xaml, XNA]
+tags: [.NET, Android, C#, Project, WPF, Xaml, XNA, App]
+categories: [App]
 ---
-I would like to kick off my Projects 'section' by briefly detailing a bit of the work I did during my Master’s Thesis.
+I would like to kick off my Apps 'section' by briefly detailing a bit of the work I did during my Master’s Thesis.
 
 The idea behind this project was to replace the information displayed in a few public displays at the lobby of my department. These were running a static webpage with news and lecturer information. The developed software would replace these webpages with dynamic content, and allow users to connect via mobile devices to interact with the system. I was free to use whatever technologies I wished, as long as I targeted Android for my mobile app, and used a few existing web services.
+<!--more-->
+
 <img src="../assets/deti1.png" alt="deti1" width="474" height="266" />
 <img src="../assets/deti2.png" alt="deti2" width="474" height="266" />
 

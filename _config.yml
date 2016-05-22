@@ -8,17 +8,19 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
+encoding:         UTF-8 
+excerpt_separator: <!--more-->
 title:            fmendo
 tagline:          'fmendo.com'
-description:      'What should, I hope, become by website by the end of the week.'
-url:              http://hyde.getpoole.com
+description:      'Hi, I&#8217;m Filipe and I&#8217;m a Windows Developer living in London'
+url:              http://www.fmendo.com
 baseurl:          /
 
 author:
   name:           'Filipe Duarte'
   url:            https://twitter.com/fmmendo
 
-paginate:         5
+paginate:         8
 
 # Custom vars
 version:          2.1.0

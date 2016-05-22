@@ -2,9 +2,11 @@
 layout: post
 title: Audio Encoding troubles in WinRT
 comments: true
-categories: [Audio, Encoding, Error, WinRT]
+tags: [Audio, Encoding, Error, WinRT]
+categories: [Development]
 ---
 Recently I've had to do some audio recording within a WinRT app, which is usually a fairly simple task as is demonstrated <a title="sample" href="https://code.msdn.microsoft.com/windowsapps/Media-Capture-Sample-adf87622">right here</a>.
+<!--more-->
 
 My problem with it was with encoding. When you set off to record something you can set up your own MediaEncodingProfile, or use one of the presets by calling, for example, MediaEncodingProfile.CreateM4a(...). That's all very nice. Unless you want to encode in MP3, which is supported on Windows 8 but not in Windows Phone 8, because the MP3 encoder is <a title="mp3" href="http://msdn.microsoft.com/en-US/library/windows/apps/windows.media.mediaproperties.mediaencodingprofile.createmp3">not shipped with WP8</a>. But that's not the reason I writing this post, oh no, I have a bigger issue here.
 

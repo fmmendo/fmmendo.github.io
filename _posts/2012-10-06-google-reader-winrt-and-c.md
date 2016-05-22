@@ -2,9 +2,11 @@
 layout: post
 title: Google Reader, WinRT and C#
 comments: true
-categories: [C#, Development, WinRT]
+tags: [C#, Development, WinRT]
+categories: [Development]
 ---
 Lately I've been dealing with Google Reader while trying to accommodate it into a Windows 8 Store App I'm building. Google offers two flavours of it's <a title="feed API" href="https://developers.google.com/feed/v1/" target="_blank">feed API</a>: like most Google APIs there's a <a title="Javascript" href="https://developers.google.com/feed/v1/devguide" target="_blank">Javascript version</a>, and a <a title="Rest Version" href="https://developers.google.com/feed/v1/jsondevguide" target="_blank">REST version</a>, with a JSON interface. Now, both these APIs are nicely documented so I won't be wasting your time or mine on that. What I will do is touch on a couple subjects that weren't really all that well documented: user authentication, which oddly is not mentioned on Google's documentation, and having the whole thing work with WinRT, since there are a few differences when compared with .NET, Silverlight, and Windows Phone 7.
+<!--more-->
 <h2>Authentication</h2>
 OK, this actually isn't that much of a big deal, the reason I'm mentioning it is mostly because it's not specified in the documentation, and because the example code also ties in nicely with the rest of the API, so it's a good starting point as any other. It also applies to other situations/APIs, not just Google Reader, that authenticate users the same way.
 

@@ -2,9 +2,11 @@
 layout: post
 title: VS - Build error - Unable to load DLL "FileTracker.dll"
 comments: true
-categories: [Error, Error, Visual Studio]
+tags: [Error, Visual Studio]
+categories: [Development]
 ---
-Well, last week I was facing a bit of a Visual Studio bug which was proving really hard to fix. Out of the blue some(!) projects just started throwing out this build error for no apparent reason:
+Last week I was facing a bit of a Visual Studio bug which was proving really hard to fix. Out of the blue some(!) projects just started throwing out this build error for no apparent reason:
+<!--more-->
 
 ```
 Error 1 The "GenerateResource" task failed unexpectedly.

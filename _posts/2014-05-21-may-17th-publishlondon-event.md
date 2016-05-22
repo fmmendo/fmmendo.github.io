@@ -2,9 +2,11 @@
 layout: post
 title: May 17th //Publish/London event
 comments: true
-categories: [Article, Event, Microsoft, Publish, Windows, Windows Phone]
+tags: [Article, Event, Microsoft, Publish, Windows, Windows Phone]
+categories: [Article]
 ---
-So yesterday I went to the //Publish event in London and it was quite awesome! It kicked off at 10am right after breakfast, and went on for 12 straight hours of coding. I had big plans for the day but telerik and .Net seemed to be against me so I only managed to push out an update for an app (more on that later).
+Yesterday I went to the //Publish event in London and it was quite awesome! It kicked off at 10am right after breakfast, and went on for 12 straight hours of coding. I had big plans for the day but telerik and .Net seemed to be against me so I only managed to push out an update for an app (more on that later).
+<!--more-->
 <blockquote class="twitter-tweet" lang="en"><a href="https://twitter.com/search?q=%23pubwin&amp;src=hash">#pubwin</a> London kicking off shortly <a href="https://twitter.com/msdevUK">@msdevUK</a> <a href="http://t.co/U6B3ze7ORG">pic.twitter.com/U6B3ze7ORG</a>
 
 — Paul Lo (@paullo) <a href="https://twitter.com/paullo/statuses/467590375566479360">May 17, 2014</a></blockquote>

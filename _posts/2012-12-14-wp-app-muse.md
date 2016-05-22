@@ -2,9 +2,11 @@
 layout: post
 title: Windows Phone App - Muse
 comments: true
-categories: [App, C#, Muse, Project, Store, Windows Phone, Xaml]
+tags: [App, C#, Muse, Project, Store, Windows Phone, Xaml]
+categories: [App]
 ---
 When WP7 came out I had been working with XAML and WPF for a while, so having these apps running under Silverlight got me immediately hooked. As soon as I got my hands on the SDK I wanted to build something, and at that time that manifested in an App that tracks some stuff for may all-time favourite band: Muse. It's far from a complex app, but it was more of a way for me to check out the SDK and the Metro design principles. At the moment it just gets some news, tour dates and photos off of their website (kindly provided via RSS feeds) and presents them with a bit of a "Metro" twist.
+<!--more-->
 
 <img src="../assets/screen1.png" alt="screen1" width="480" height="800" />
 <img src="../assets/screen2.png" alt="screen2" width="480" height="800" />

@@ -2,9 +2,11 @@
 layout: post
 title: Windows Phone Summit
 comments: true
-categories: [Article, Event, Microsoft, Windows Phone]
+tags: [Article, Event, Microsoft, Windows Phone]
+categories: [Article]
 ---
 Well, Apple held their WWDC last week, where it presented iOS 6, along with a few refreshes here and there on their hardware line. While they only demoed 6 of the "hundreds" of new features, it's safe to assume that these should be near the top, and in that case, iOS6 didn't really bring that much to the game. Facebook integration, abandoning Google Maps in favour of their own, some (cool) Safari features, they (finally!) can videochat over 3G, and Siri can now discuss sports, yay. Google will be holding its Google I/O next week, where we're expected to either hear more about Jelly Bean, or maybe a minor update instead. On the other side of the battlefield, Microsoft, who just announced the Surface tablet, held its Windows Phone Camp yesterday in San Francisco.
+<!--more-->
 <h2>The mobile landscape</h2>
 Nothing much has changed in the mobile landscape in recent history. Apple and Google hold large chunks of the market while Microsoft holds a puny slice. Nokia's help seems to pushing things along nicely, but yeah, Windows Phone is still rather small. We know customer satisfaction with WP7 is great. It sits there at the top alogside iOS, with Android lagging behind. Microsoft yesterday even showed Amazon's top rated smartphones, and Windows Phones constituted the top three, and made up seven of the top 9 rated smartphones. That's awesome! Consumers love the phones, it's just a shame that they don't buys them!
 

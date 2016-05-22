@@ -1,12 +1,15 @@
 ---
 layout: post
 title: Windows 10 App - MyShelf
-categories: [API, App, C#, GoodReads, Project, UWP, Windows, Windows 10, Xaml]
+comments: true
+tags: [App, API, C#, GoodReads, Project, UWP, Windows, Windows 10, Xaml]
+categories: [App]
 ---
 
 I finally published my <a href="http://www.goodreads.com/">Goodreads</a> client: myShelf. It has actually been on the store for a while, but I just haven't had time to do a quick write down on it.
 
 There were a few reasons behind building this app: the main website looked a bit dull (it has since been updated to look more modern), and not that good on mobile, but offered a lot of great features for people who loved to read; it lacked an official app, and the unofficial ones were a bit lacklustre; and I'd been wanting to build something bigger, different from my last few apps, and closer to what I actually do at work.
+<!--more-->
 
 <img class="aligncenter  wp-image-106" src="../assets/home.png" alt="home" width="640" height="396" />
 
