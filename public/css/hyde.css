@@ -70,6 +70,24 @@ html {
   }
 }
 
+
+.social-links {
+	margin-bottom: 20px;
+}
+
+.social-links ul {
+	display: inline;
+	padding-left: 0rem;
+	margin-bottom: 20px;
+}
+.social-links li {
+	display: inline-block;
+	font-size: 24pt;
+	width: 18%;
+	text-align: center;
+	list-style-type: none;
+}
+
 /* Sidebar links */
 .sidebar a {
   color: #fff;

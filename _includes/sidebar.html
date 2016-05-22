@@ -7,6 +7,45 @@
         </a>
       </h1>
       <p class="lead">{{ site.description }}</p>
+	  <div class="social-links">
+	  <ul>
+	  {% if site.twitter_username %}
+	    <li>
+	      <a href="https://twitter.com/{{ site.twitter_username }}">
+		    <i class="fa fa-twitter"></i>
+		  </a>
+		</li>
+	  {% endif %}
+	  {% if site.github_username %}
+		<li>
+			<a href="https://github.com/{{ site.github_username }}">
+			<i class="fa fa-github"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if site.linkedin_username %}
+		<li>
+			<a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+			<i class="fa fa-linkedin"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if site.facebook_username %}
+		<li>
+			<a href="https://www.facebook.com/{{ site.facebook_username }}">
+			<i class="fa fa-facebook"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if site.instagram_username %}
+		<li>
+			<a href="https://www.instagram.com/{{ site.instagram_username }}">
+			<i class="fa fa-instagram"></i>
+			</a>
+		</li>
+		{% endif %}
+	  </ul>
+	  </div>
     </div>
 
     <nav class="sidebar-nav">
@@ -35,3 +74,5 @@
     <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">

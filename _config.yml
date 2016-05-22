@@ -25,5 +25,12 @@ paginate:         8
 # Custom vars
 version:          2.1.0
 
+twitter_username: fmmendo
+github_username: fmmendo
+linkedin_username: filipemiguel
+instagram_username: fmmendo
+#facebook_username: filipe
+
+
 github:
   repo:           https://github.com/fmmendo/fmmendo.github.io
