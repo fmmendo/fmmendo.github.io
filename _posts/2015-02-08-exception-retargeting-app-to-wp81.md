@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BackgroundTaskBuilder.Register throwing UnauthorizedAccessException
+title: Exception retargeting app to WP8.1
 comments: true
 tags: [Background Task, C#, Error, Windows Phone]
 categories: [Development]
