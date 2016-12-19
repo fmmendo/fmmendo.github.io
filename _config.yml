@@ -1,20 +1,26 @@
 # Dependencies
-gems:             [jekyll-paginate, jekyll-gist]
+gems: [jekyll-paginate, jekyll-feed]
 markdown:         kramdown
 highlighter:      rouge
 
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
 # Permalinks
 permalink:        pretty
-#relative_permalinks: true
 
 # Setup
 encoding:         UTF-8 
 excerpt_separator: <!--more-->
+
 title:            fmendo
 tagline:          'fmendo.com'
 description:      'Hi, I&#8217;m Filipe and I&#8217;m a Windows Developer living in London'
+header-img: img/home-bg.jpg
 url:              http://www.fmendo.com
 baseurl:          /
+
+email: me@fmendo.com
+copyright_name: Filipe Duarte
 
 author:
   name:           'Filipe Duarte'
@@ -29,7 +35,8 @@ twitter_username: fmmendo
 github_username: fmmendo
 linkedin_username: filipemiguel
 instagram_username: fmmendo
-#facebook_username: filipe
+facebook_username: fmmendo
+email_username:  me@fmendo.com
 
 
 github:
