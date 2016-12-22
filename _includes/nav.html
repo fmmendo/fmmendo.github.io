@@ -27,11 +27,10 @@
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
-                <li>
+          {% if node.layout == "page" %}
+				<li>
                     <a href="{{node.url}}">{{ node.title }}</a>
                 </li>
-
-          {% if node.layout == "page" %}
           {% endif %}
         {% endif %}
       {% endfor %}
