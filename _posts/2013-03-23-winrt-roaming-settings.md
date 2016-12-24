@@ -5,8 +5,7 @@ comments: true
 tags: [C#, Development, Settings, Storage, WinRT]
 categories: [Development]
 ---
-One thing consider when developing apps is that we might need to have data persist between uses or even between devices. With Windows 8 we are given 3 places where we can store data for each user profile (apart from the system libraries):
-<!--more-->
+One thing consider when developing apps is that we might need to have data persist between uses or even between devices.<!--more--> With Windows 8 we are given 3 places where we can store data for each user profile (apart from the system libraries):
 
 <strong>Local:</strong> The local folder is just a basic, local folder for you to dump data to. Nothing special here. Good to store some settings for you app, for example.
 

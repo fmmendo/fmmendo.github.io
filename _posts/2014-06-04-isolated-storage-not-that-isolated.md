@@ -5,8 +5,7 @@ comments: true
 tags: [C#, Development, Storage, Windows Phone]
 categories: [Development]
 ---
-A few weeks ago when I was at the <a title="http://fmendo.com/may-17th-publish-london" href="http://fmendo.com/may-17th-publish-london">//publish event in London</a> I had some trouble getting my code to work properly. You know, because the day you need to hack something together is the day the computer goes "I know what you want to do, but you're missing something, and I can't tell you what". Just another day at the office.
-<!--more-->
+A few weeks ago when I was at the <a title="http://fmendo.com/may-17th-publish-london" href="http://fmendo.com/may-17th-publish-london">//publish event in London</a> I had some trouble getting my code to work properly.<!--more--> You know, because the day you need to hack something together is the day the computer goes "I know what you want to do, but you're missing something, and I can't tell you what". Just another day at the office.
 
 One of my biggest issues that day was that I was reading some data off of IsolatedStorage, and then doing some manipulation so the ViewModel could work it's magic, and that somehow managed to modify the data which I thought was safely stored in IsolatedStorage.
 
