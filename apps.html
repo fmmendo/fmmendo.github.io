@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Apps
+title: Projects
 header-img: img/home-bg.jpg
 ---
 
@@ -21,12 +21,25 @@ header-img: img/home-bg.jpg
                 <hr>
 				
 				{% endfor %}
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
+	<!-- Pager -->
+    <ul class="pager">
+		{% if paginator.next_page %}
+			<li class="next">
+				<a href="{{site.baseurl}}page{{paginator.next_page}}">Older Projects &rarr;</a>
+			</li>
+		{% endif %}
+		
+		{% if paginator.previous_page %}
+	
+			<li class="previous">
+			{% if paginator.page == 2 %}
+				<a href="{{site.baseurl}}">&larr; Newer Projects</a>
+			{% else %}
+				<a href="{{site.baseurl}}page{{paginator.previous_page}}">&larr; Newer Projects</a>
+			{% endif %}
+			</li>
+		{% endif %}
+    </ul>
 
 
 
