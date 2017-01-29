@@ -12,11 +12,11 @@ Basically I was looking for an app to manage my gym routine and track my progres
 
 So that's what I set off to build. Now, at the present moment it won't be able to do everything without a little help, and it's limited to one plan. But underneath it's ready to handle a lot more.
 
-<img class="aligncenter size-large wp-image-34" src="../assets/1_main.png" alt="1_main" width="474" height="791" />
+<img class="aligncenter size-large wp-image-34" src="/assets/1_main.png" alt="1_main" width="474" height="791" />
 
 I built an entire library to handle the workout and it should soon support cardio exercises as well. This library will handle all the workout calculations and defines the viewmodels available to the app, which will allow me to build some other apps based on the same code.
 
-<img class="aligncenter size-large wp-image-35" src="../assets/3_workout.png" alt="3_workout" width="474" height="791" />
+<img class="aligncenter size-large wp-image-35" src="/assets/3_workout.png" alt="3_workout" width="474" height="791" />
 
 The Stronglifts Tracker app itself merely presents the content provided by my library to the user.
 
