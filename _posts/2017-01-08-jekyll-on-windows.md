@@ -14,6 +14,7 @@ A while back, I decided to move this site from a relatively cumbersome Wordpress
 ### Install Bash on Ubuntu on Windows
 
 The first thing we need to do is get Linux to run in Windows, this can be done by installing the Windows Subsystem for Linux, which is available as of the Anniversary Update (also known as version 1607, or build 14393 if my memory serves me right). The installation guide can be found [here](https://msdn.microsoft.com/en-gb/commandline/wsl/install_guide) but the gist of it is:
+
 1. Turn-on Developer Mode (in Setings -> Update and Security -> For Developers)
 2. "Turn Windows features on or off" and select **Windows Subsystem for Linux (beta)**
 3. Open a command prompt, run `bash` and follow instructions
@@ -23,6 +24,7 @@ Once that's done a shortcut will be placed in the start menu (or you can run `ba
 ### Installing Jekyll
 
 Now, at the moment Ubuntu on Windows doesn't have much, so we need to start by installing `make` and `gcc`.
+
 ```
 $ sudo -s 
 $ apt update 
@@ -45,6 +47,6 @@ $ jekyll serve
 ```
 I also had to install `jekyll-paginate` and `jekyll-gist` to get my site to work, no problem there.
 
-One issue you may come across is that the current release doesn't support filesystem watchers (and Ruby/Jekyll require `libinotify`). This has been addressed as ov build #14942, so you'll have to join the Windows Insider Preview, or wait for to be pushed out (which will most likely happen with the Creators Update).
+One issue you may come across is that the current release doesn't support filesystem watchers (and Ruby/Jekyll require `libinotify`). ~~This has been addressed as of build #14942, so you'll have to join the Windows Insider Preview, or wait for to be pushed out which will most likely happen with the Creators Update.~~ This is fixed with the Creators Update.
 
 That's all from me!
