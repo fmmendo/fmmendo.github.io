@@ -15,9 +15,11 @@ A while back, I decided to move this site from a relatively cumbersome Wordpress
 
 The first thing we need to do is get Linux to run in Windows, this can be done by installing the Windows Subsystem for Linux, which is available as of the Anniversary Update (also known as version 1607, or build 14393 if my memory serves me right). The installation guide can be found [here](https://msdn.microsoft.com/en-gb/commandline/wsl/install_guide) but the gist of it is:
 
+
 1. Turn-on Developer Mode (in Setings -> Update and Security -> For Developers)
 2. "Turn Windows features on or off" and select **Windows Subsystem for Linux (beta)**
 3. Open a command prompt, run `bash` and follow instructions
+
 
 Once that's done a shortcut will be placed in the start menu (or you can run `bash` at a command prompt) and we can now get started.
 
@@ -25,11 +27,13 @@ Once that's done a shortcut will be placed in the start menu (or you can run `ba
 
 Now, at the moment Ubuntu on Windows doesn't have much, so we need to start by installing `make` and `gcc`.
 
+
 ```
 $ sudo -s 
 $ apt update 
 $ apt install make gcc
 ```
+
 With that done, we can move on to installing Ruby. Jekyll needs at least Ruby 2.0, and the latest stable release is 2.3.0, so we're getting that.
 
 ```
