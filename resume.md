@@ -39,7 +39,7 @@ I am an enthusiastic, consumer-focused software engineer, passionate about human
 <h3>Senior Mobile Developer | Nodes<span style="font-size: small; color: #aaaaaa;"> May 2017 - Present
 London, United Kingdom</span></h3>
 <ul>
-	<li>Responsible for the company's Windows apps./li>
+	<li>Responsible for the company's Windows apps.</li>
 	<li>Delivered Windows (UWP and 8.1) and Android Apps.</li>
 	<li>Set up and maintained Continuous Integration for our Windows Projets.</li>
 	<li>Apps include: Riide, Linak Desk Control, TokenOn, ScripIn, LGT Vestra.</li>
