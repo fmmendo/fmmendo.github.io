@@ -36,19 +36,30 @@ I am an enthusiastic, consumer-focused software engineer, passionate about human
 </tbody>
 </table>
 <h2>Experience</h2>
-<h3>Windows Developer | UI Centric<span style="font-size: 0.8em; color: #aaaaaa;"><span style="font-size: small;"> August 2014 - Present
-London, United Kingdom</span></span></h3>
+<h3>Senior Mobile Developer | Nodes<span style="font-size: small; color: #aaaaaa;"> May 2017 - Present
+London, United Kingdom</span></h3>
 <ul>
-	<li>Building Universal Apps for Windows and Windows Phone for high profile clients.</li>
+	<li>Responsible for the company's Windows apps./li>
+	<li>Delivered Windows (UWP and 8.1) and Android Apps.</li>
+	<li>Set up and maintained Continuous Integration for our Windows Projets.</li>
+	<li>Apps inlcud: Riide, Linak Desk Control, TokenOn, ScripIn, LGT Vestra.</li>
+</ul>
+<h3>Windows Developer | UI Centric<span style="font-size: small; color: #aaaaaa;"> August 2014 - May 2017
+London, United Kingdom</span></h3>
+<ul>
+	<li>Delivered Windows apps (from 8.1 to UWP) targeting phone, tablets,  desktop, and Xbox.</li>
+	<li>Focused on building great user experiences for every app.</li>
+	<li>Apps commissioned by international clients such as: CBS, NBC, AMC, Just Eat, Discovery News, Camelot Loop, MediaCore,  Epicurious, TimeOut, BigHand, and CBS News.</li>
 </ul>
 <h3>C# Developer | Green Man Gaming<span style="font-size: small; color: #aaaaaa;"> February 2014 – August 2014
-London, United Kingdom</span></span></h3>
+London, United Kingdom</span></h3>
 <ul>
 	<li>Worked on the Playfire desktop client which allowed users to track their game progress on Xbox, PS and Steam.</li>
+	<li>Inroduced MVVM to the team, leading to easier to maintain code, and increased unit-test coverage.</li>
 	<li>Development done in C#, using XAML and Ninject. Continuous Integration using Jenkins, Gerrit, JIRA, MSTest and Moq, with a SCRUM approach.</li>
 </ul>
 <h3>Winows Phone Software Engineer | Powa Technologies<span style="font-size: small; color: #aaaaaa;"> October 2013 – January 2014
-London, United Kingdom</span></span></h3>
+London, United Kingdom</span></h3>
 <ul>
 	<li>Developed the PowaTag app for Windows Phone 8 that allowed users to quickly purchase tagged products and services by scanning QR codes on retail websites and print ads.</li>
 	<li>Developed the PowaHub app, a Windows Phone 8 Company Hub app for internal use at Powa.</li>
@@ -56,11 +67,11 @@ London, United Kingdom</span></span></h3>
 	<li>Development done in C# using XAML and MVVM. Continuous Integration using Bamboo, JIRA, and MSTest, with a Scrum Approach.</li>
 </ul>
 <h3>Software Developer | Arkk Solutions <span style="font-size: small; color: #aaaaaa;">February 2012 – September 2013
-London, United Kingdom</span></span></h3>
+London, United Kingdom</span></h3>
 <ul>
-	<li>Responsible for the development and maintenance of the company's iXBRL Add-In for MS Word and Excel. Added new features, improved performance and user experience, added support for new taxonomies, implemented a new, more versatile, licensing system.</li>
-	<li>Developed utilities that automated document tagging on a Sharepoint server, and tools to text iXBRL output against submission servers and integrated them into the add-in.</li>
-	<li>Development done in .NET using C#, XAML, MVVM, TPL, XML, LINQ, Interop and VSTO. Coninuous integration using TargetProcess with a Kanban approach.</li>
+	<li>Responsible for the development of the company's regulatory reporting software.</li>
+	<li>Increased performance and reduced memory usage of key functionalities.</li>
+	<li>Implemented a more versatile licensing system, and added new features and utilities as pat of the effort to expand to new markets.</li>
 </ul>
 <h3>Programmer Analyst | Indra <span style="font-size: small; color: #aaaaaa;">June 2011 – December 2011
 Lisbon, Portugal</span></h3>
