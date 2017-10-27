@@ -42,7 +42,7 @@ London, United Kingdom</span></h3>
 	<li>Responsible for the company's Windows apps./li>
 	<li>Delivered Windows (UWP and 8.1) and Android Apps.</li>
 	<li>Set up and maintained Continuous Integration for our Windows Projets.</li>
-	<li>Apps inlcud: Riide, Linak Desk Control, TokenOn, ScripIn, LGT Vestra.</li>
+	<li>Apps include: Riide, Linak Desk Control, TokenOn, ScripIn, LGT Vestra.</li>
 </ul>
 <h3>Windows Developer | UI Centric<span style="font-size: small; color: #aaaaaa;"> August 2014 - May 2017
 London, United Kingdom</span></h3>
