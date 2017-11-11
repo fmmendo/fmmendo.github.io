@@ -17,7 +17,7 @@ tagline:          'fmendo.com'
 description:      'Hi, I&#8217;m Filipe and I&#8217;m a Windows Developer living in London'
 header-img: img/about-bg.jpg
 url:              http://www.fmendo.com
-baseurl:          /
+baseurl:          http://www.fmendo.com/
 
 email: me@fmendo.com
 copyright_name: Filipe Duarte
