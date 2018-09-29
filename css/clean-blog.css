@@ -399,3 +399,8 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
