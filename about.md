@@ -4,8 +4,7 @@ title: About Me
 header-img: img/about-bg.jpg
 ---
 
-My name is Filipe Duarte and I’m software developer. I’m Portuguese, currently living
-in London, and working for [Paddle](http://www.paddle.com/).
+My name is Filipe Duarte and I’m software developer. I’m Portuguese, currently living in London, and working for [Paddle](http://www.paddle.com/).
 
 I try to blog mostly about dev stuff, from projects I’m working on, to problems and solutions I find while coding, with the occasion plug for an app or two I might put out there.
 
