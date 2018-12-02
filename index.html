@@ -26,7 +26,7 @@ header-img: img/home-bg.jpg
     <ul class="pager">
 		{% if paginator.next_page %}
 			<li class="next">
-				<a href="{{site.baseurl}}page{{paginator.next_page}}">Older Posts &rarr;</a>
+				<a href="/page{{paginator.next_page}}">Older Posts &rarr;</a>
 			</li>
 		{% endif %}
 		
@@ -34,9 +34,9 @@ header-img: img/home-bg.jpg
 	
 			<li class="previous">
 			{% if paginator.page == 2 %}
-				<a href="{{site.baseurl}}">&larr; Newer Posts</a>
+				<a href="/">&larr; Newer Posts</a>
 			{% else %}
-				<a href="{{site.baseurl}}page{{paginator.previous_page}}">&larr; Newer Posts</a>
+				<a href="/page{{paginator.previous_page}}">&larr; Newer Posts</a>
 			{% endif %}
 			</li>
 		{% endif %}
