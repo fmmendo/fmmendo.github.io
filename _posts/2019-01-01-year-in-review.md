@@ -6,8 +6,6 @@ tags: []
 categories: [Article]
 ---
 
-{::options parse_block_html="false" /}
-
 I've been meaning to join in on the Year in Review posts, but missed the deadline last year, here it is now.
 
 <!--more-->
