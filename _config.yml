@@ -18,15 +18,15 @@ url: http://www.fmendo.com
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
+  - title: 'home'
     url: '/'
-  - title: 'About'
-    url: '/About'
-  - title: 'Apps'
-    url: '/Apps'
-  - title: 'Resume'
-    url: '/Resume'
-  - title: 'Tags'
+  - title: 'about'
+    url: '/about'
+  - title: 'apps'
+    url: '/apps'
+  - title: 'resume'
+    url: '/resume'
+  - title: 'tags'
     url: '/tags'
   # - title: 'Categories'
   #   url: '/categories'
