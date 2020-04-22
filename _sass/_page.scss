@@ -472,7 +472,7 @@ ul.social-buttons li a:active {
 	height: 50px;
 	@media #{$medium} {
 		background-color: $header-color;
-		min-height: 50;
+		min-height: 300px;
 	}
 }
 .header-toggle{
@@ -546,6 +546,7 @@ ul.social-buttons li a:active {
 	background-color: $menu-overflow;
 	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
 }
+
 .header-menu-top ul li a{
 	color: $white;
 }
@@ -572,7 +573,7 @@ ul.social-buttons li a:active {
 	float: right;
 	padding-left: 20px;
 	padding-right: 20px;
-	text-transform: uppercase;
+	font-variant: small-caps;
 	border-top-color: transparent;
 	border-top-style: solid;
 	border-top-width: 5px;
@@ -600,16 +601,13 @@ ul.social-buttons li a:active {
 	@media #{$large} {
 		display: block;
 	}
-	a.title {
-		font-size: 1.0rem;
-	}
 }
 .header-item-title{
 	float: left;
 	border-top-width: 0px;
 	height: 100%;
 	a.title {
-		font-size: 1.4rem;
+		font-size: 1.5rem;
 	    padding-left: 5px;
 		display: none;
 		vertical-align: middle;
