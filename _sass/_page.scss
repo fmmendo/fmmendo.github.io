@@ -176,6 +176,10 @@ header .entry-meta {
 		margin: 50px 30px 30px;
 		text-align: center;
 	}
+	.entry-small-title {
+		font-size: 1.17rem;
+		margin-top: 0px;
+	}
 }
 .entry-tags {
 	display: block;
@@ -472,7 +476,15 @@ ul.social-buttons li a:active {
 	height: 50px;
 	@media #{$medium} {
 		background-color: $header-color;
-		min-height: 300px;
+		min-height: 370px;
+	}
+}
+.header-description {
+	color: $white;
+	text-shadow: 1px 1px 4px rgba($base-color, 0.6);
+	a {
+		color: $white;
+		text-shadow: 1px 1px 4px rgba($base-color, 0.6);	
 	}
 }
 .header-image{
@@ -500,7 +512,7 @@ ul.social-buttons li a:active {
 .header-title {
 	text-align: center;
 	position: absolute;
-	bottom: 0;
+	top: 150px;
 	display: table;
 	margin-top: 0;
 	width: 100%;
