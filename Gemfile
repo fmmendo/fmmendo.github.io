@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
 gem 'octopress'
-gem 'jekyll-paginate'
+gem 'jekyll-paginate-v2'
 gem 'neo-hpstr-jekyll-theme'

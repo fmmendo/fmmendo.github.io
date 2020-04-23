@@ -1,0 +1,42 @@
+---
+layout: home
+title: Projects
+header-img: img/home-bg.jpg
+---
+
+<!-- Main Content -->
+
+{% for post in site.categories.App %}
+<div class="post-preview">
+	<a href="{{ post.url }}">
+		<h2 class="post-title">
+			{{ post.title }}
+		</h2>
+		<h3 class="post-subtitle" style="font-weight:300;">
+			{{ post.excerpt  | strip_html }} <span style="font-size:16px;"><em> (continue reading...)</em></span>
+		</h3>
+	</a>
+	<p class="post-meta">Posted by <a href="#">fmendo</a> on {{ post.date | date_to_string }}</p>
+</div>
+<hr>
+
+{% endfor %}
+<!-- Pager -->
+<ul class="pager">
+	{% if paginator.next_page %}
+	<li class="next">
+		<a href="/page{{paginator.next_page}}">Older Projects &rarr;</a>
+	</li>
+	{% endif %}
+
+	{% if paginator.previous_page %}
+
+	<li class="previous">
+		{% if paginator.page == 2 %}
+		<a href="/">&larr; Newer Projects</a>
+		{% else %}
+		<a href="/page{{paginator.previous_page}}">&larr; Newer Projects</a>
+		{% endif %}
+	</li>
+	{% endif %}
+</ul>
