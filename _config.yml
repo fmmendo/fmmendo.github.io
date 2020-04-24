@@ -18,38 +18,35 @@ url: http://www.fmendo.com
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
+  - title: 'blog'
     url: '/'
-  - title: 'About'
-    url: '/About'
-  - title: 'Apps'
-    url: '/Apps'
-  - title: 'Resume'
-    url: '/Resume'
-  - title: 'Tags'
-    url: '/tags'
-  # - title: 'Categories'
-  #   url: '/categories'
-  #   type: 'categories'
-  # - title: 'Favorites'
-  #   url: '#'
-  #   submenu:
-  #     - title: 'Code Highlighter'
-  #       url: '/intro/code-highlighting-post/'
-  #     - title: 'Sample Post'
-  #       url: '/intro/sample-post/'
+  - title: 'projects'
+    url: '/projects'
+  - title: 'about'
+    url: '/about'
+  - title: 'more...'
+    url: '#'
+    submenu:
+      - title: 'travel'
+        url: '/travel'
+      - title: 'tags'
+        url: '/tags'
+      - title: 'archive'
+        url: '/posts'
+      - title: 'rss'
+        url: '/feed.xml'
 
 # Owner/author information
 owner:
   name:           Filipe Duarte
   site:           http://www.fmendo.com
   avatar:         images/avatar.jpg
-  bio:            "Hi, I&#8217;m Filipe and I&#8217;m a Windows Developer living in London"
+  bio:            "Hi, I&#8217;m Filipe. I&#8217;m a Software Engineer, from Portugal, currently living in London, building stuff for Paddle."
   email:          me@fmendo.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: fmmendo # if no twitter in this config, the twitter follow button will be removed
+  # twitter: fmmendo # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: fmmendo
+  # github: fmmendo
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -60,7 +57,13 @@ social:
   - title: "github"
     url: "https://github.com/fmmendo"
   - title: "linkedin"
-    url: "https://br.linkedin.com/in/filipemiguel"
+    url: "https://www.linkedin.com/in/filipemiguel"
+  - title: "twitter"
+    url: "https://www.twitter.com/fmmendo"
+  - title: "instagram"
+    url: "https://www.instagram.com/fmmendo"
+  - title: "envelope"
+    url: "mailto:me@fmendo.com"
 
 # Background image to be tiled on all pages
 background:
@@ -82,7 +85,7 @@ sass:
   style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink:   /blog/:title/
 
 # Amount of post to show on home page
 paginate: 5

@@ -176,6 +176,10 @@ header .entry-meta {
 		margin: 50px 30px 30px;
 		text-align: center;
 	}
+	.entry-small-title {
+		font-size: 1.17rem;
+		margin-top: 0px;
+	}
 }
 .entry-tags {
 	display: block;
@@ -215,6 +219,12 @@ header .entry-meta {
 }
 
 // Read More Module
+.social-links {
+	position: relative;
+
+	text-align: center;
+	@include clearfix;
+}
 .read-more {
 	position: relative;
 	margin: 40px 2px 20px 2px;
@@ -572,7 +582,7 @@ ul.social-buttons li a:active {
 	float: right;
 	padding-left: 20px;
 	padding-right: 20px;
-	text-transform: uppercase;
+	font-variant: small-caps;
 	border-top-color: transparent;
 	border-top-style: solid;
 	border-top-width: 5px;
