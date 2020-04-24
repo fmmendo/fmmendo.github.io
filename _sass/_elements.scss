@@ -154,13 +154,3 @@ figure.center img{
   border: 1px solid $comp-color;
   @include rounded(4px);
 }
-
-hr.small {
-  max-width: 100px;
-  margin: 15px auto;
-  color: $white;
-  box-shadow: 0 0 0 0, 0 1px 4px rgba($black,0.5);
-  border-width: 2px;
-  border-color: inherit;
-  border-radius: 3px;
-}

@@ -46,16 +46,10 @@
       <li class="header-item"><a href="{{site.url}}/search"><h3><i class="fa fa-search"></i></h3></a></li>
     </ul>
   </div>
-{% if page.layout == 'home' %}
 <div class="entry-header">
-  <img class="header-image" src="/images/abstract-4.jpg"/>
   <div class="header-title">
     <div class="header-title-wrap">
       <h1>{{ page.title }}</h1>
-      <hr class="small">
-      <h3 class="header-description">
-        I’m a software engineer. I’m Portuguese, currently living in London, and working for <a href="http://www.paddle.com/">Paddle</a>.
-      </h3>
       {% if page.date %}
         <h2><span class="entry-date date published updated"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
       {% else %}
@@ -76,9 +70,6 @@
     </div><!-- /.header-title-wrap -->
   </div><!-- /.header-title -->
 </div><!-- /.entry-header -->
-{% else %}
-<div class="entry-blank-space"></div>
-{% endif %}
 
 
 <nav id="menu" style="display: none">

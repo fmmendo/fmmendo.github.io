@@ -2,12 +2,13 @@
 layout: post
 title: GoodReads Universal App Development - API [Part 1]
 comments: true
-tags: [API, C#, Development, GoodReads, WinRT, UWP]
+tags: [API, C#, Development, GoodReads, WinRT]
 categories: [Development]
 ---
 <em>UPDATE: I actually started this app before universal apps were announced and was using PCLs for the shared bits, but I have since updated that project to a Universal App.</em>
+<!--more-->
 
-Well, I have a backlog of apps I want to build, and I've decided to start with an app that uses the Goodreads API.<!--more--> I've been wanting to do this for quite some time as I'm a bit of a bookworm, and there are a few features that come in very handy with a tablet or phone, and so far there's no Windows 8 app that fulfils my needs, so I thought I'd get started on something for both platforms.
+Well, I have a backlog of apps I want to build, and I've decided to start with an app that uses the Goodreads API. I've been wanting to do this for quite some time as I'm a bit of a bookworm, and there are a few features that come in very handy with a tablet or phone, and so far there's no Windows 8 app that fulfils my needs, so I thought I'd get started on something for both platforms.
 
 My plan is to do this in 2-3 steps: first I want to get my API calls doing what I need, then I'll build the actual Windows 8 app with the data from the API calls, and later, since most of the work will already be done, I'll extend it to Windows Phone.
 

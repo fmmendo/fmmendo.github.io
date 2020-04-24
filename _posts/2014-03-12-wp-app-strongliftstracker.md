@@ -5,8 +5,7 @@ comments: true
 tags: [App, C#, Project, Stronglifts, Windows Phone, Workout, Xaml]
 categories: [App]
 ---
-I have new published app on the windows phone store! It's essentially a gym routine tracker, and there's still a lot of stuff I want to add to the app in the coming weeks/months, but it was ready for a v1 release. I'll update this post once new stuff has been pushed to the app.
-<!--more-->
+I have new published app on the market! There's still a lot of stuff I want to add to the app in the coming weeks/months, but it was ready for a v1 release.<!--more--> I'll update this post once new stuff has been pushed to the app.
 
 Basically I was looking for an app to manage my gym routine and track my progress. While there are quite a few gym apps in the marketplace, I couldn't find one that fit what I needed. There are apps to log your workouts, or that include their own plans, but I wanted something that told me all the details from the exercises I should be doing: how many reps, rest time, how much weight to lift and so on, and keep track of it so that as I progress the app keeps up and increases the weights, etc, like a personal trainer would do.
 
