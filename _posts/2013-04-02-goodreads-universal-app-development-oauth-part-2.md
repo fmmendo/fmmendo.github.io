@@ -2,7 +2,7 @@
 layout: post
 title: GoodReads Universal App Development - OAuth [Part 2]
 comments: true
-tags: [API, C#, Development, GoodReads, OAuth, WinRT]
+tags: [API, C#, Development, GoodReads, OAuth, WinRT, UWP]
 categories: [Development]
 ---
 In the previous post I briefly touched on how the API calls for GoodReads looked like, now I'm going to mention authentication.

@@ -2,7 +2,7 @@
 layout: post
 title: GoodReads Universal App Development - API [Part 1]
 comments: true
-tags: [API, C#, Development, GoodReads, WinRT]
+tags: [API, C#, Development, GoodReads, WinRT, UWP]
 categories: [Development]
 ---
 <em>UPDATE: I actually started this app before universal apps were announced and was using PCLs for the shared bits, but I have since updated that project to a Universal App.</em>

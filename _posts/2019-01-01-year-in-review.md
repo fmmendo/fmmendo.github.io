@@ -2,7 +2,7 @@
 layout: post
 title: 2019 Year in Review
 comments: true
-tags: []
+tags: [Article, Year in Review]
 categories: [Article]
 ---
 
