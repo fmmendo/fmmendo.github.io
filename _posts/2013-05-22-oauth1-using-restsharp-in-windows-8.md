@@ -5,7 +5,7 @@ comments: true
 tags: [C#, Development, GoodReads, OAuth, RestSharp, WinRT]
 categories: [Development]
 ---
-So I was cleaning up some code on my GoodReads Windows 8 app, and decided to give RestSharp another go.<!--more--> <a title="http://restsharp.org/" href="http://restsharp.org/">RestSharp</a> is a nice, simple REST and HTTP API Client for .NET which works under .NET, MonoDroid, MonoTouch, Silverlight and Windows Phone, and can be foun on <a title="https://github.com/devinrader/RestSharp" href="https://github.com/devinrader/RestSharp">github</a>. It has also been recently ported to WinRT. There are still a few missing bits and pieces, of which I have implemented a few but it allowed me to reduce all the code from the previous post into this:
+So I was cleaning up some code on my GoodReads Windows 8 app, and decided to give RestSharp another go. <a title="http://restsharp.org/" href="http://restsharp.org/">RestSharp</a> is a nice, simple REST and HTTP API Client for .NET which works under .NET, MonoDroid, MonoTouch, Silverlight and Windows Phone, and can be found on <a title="https://github.com/devinrader/RestSharp" href="https://github.com/devinrader/RestSharp">github</a>.<!--more--> It has also been recently ported to WinRT. There are still a few missing bits and pieces, of which I have implemented a few but it allowed me to reduce all the code from the previous post into this:
 
 ```csharp
         public async void Authenticate()

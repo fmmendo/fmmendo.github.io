@@ -5,10 +5,8 @@ comments: true
 tags: [C#, Development, Gestures, Windows Phone, Xaml]
 categories: [Development]
 ---
-It's been a while since I wrote something so here's something I had in my backlog that had me scratching my head some time ago.
-<!--more-->
 
-I decided to give my WP7 app a much needed overhaul and eventually release a WP8 version. I started by pulling all the Model and ViewModel code to a separate library so I can then have an app for 7 and 8. One of the features I planned to update for a while but never got to it was to have the image viewer actually work like an image viewer. (If I did my research correctly, believe this will be a non-issue in WP8 as there's a control for what I'm about to write about).
+I decided to give my WP7 app a much needed overhaul and eventually release a WP8 version. I started by pulling all the Model and ViewModel code to a separate library so I can then have an app for 7 and 8. One of the features I planned to update for a while but never got to it was to have the image viewer actually work like an image viewer.<!--more--> (If I did my research correctly, I believe this will be a non-issue in WP8 as there's a control for what I'm about to write about).
 
 Note: There are loads of controls out there that do this kindly provided by other developers, or from sources such as Telerik. But I do like to reinvent the wheel sometimes and get to know how things work.
 

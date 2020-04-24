@@ -38,6 +38,12 @@ menu:
     submenu:
       - title: 'travel'
         url: '/travel'
+      - title: 'tags'
+        url: '/tags'
+      - title: 'archive'
+        url: '/posts'
+      - title: 'rss'
+        url: '/feed.xml'
   #     - title: 'Sample Post'
   #       url: '/intro/sample-post/'
 

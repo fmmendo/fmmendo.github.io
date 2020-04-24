@@ -8,9 +8,7 @@ categories: [App]
 
 So decided to build a quick game base off of Voltorb Flip from the pokemon NDS games.
 
-<!--more-->
-
-If you've never played it (or heard of it) it feels like a Sudoku meets Minesweeper mashup. I loved playing it in my DS and wanted to be able to play it when I didn't have it with me, so just went for it and coded it up.
+If you've never played it (or heard of it) it feels like a Sudoku meets Minesweeper mashup. I loved playing it in my DS and wanted to be able to play it when I didn't have it with me, so just went for it and coded it up.<!--more-->
 
 <img class="aligncenter" src="/assets/zeroflip.png" alt="home" height="396" />
 
