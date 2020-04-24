@@ -19,15 +19,16 @@ I am currently a developer at [Paddle](http://www.paddle.com/), working on the W
 
 # About Me
 
-💼 Currently a Senior Software Engineer at [Paddle](https://www.paddle.com/). Previously worked on UWP apps at [UI Centric](https://www.uicentric.com/) and [Nodes](https://www.nodesagency.com/).
+💼  Currently a Senior Software Engineer at [Paddle](https://www.paddle.com/). Previously built UWP apps at [UI Centric](https://www.uicentric.com/) and [Nodes](https://www.nodesagency.com/). You can find more details in my [resume](/resume) page (or [download](https://1drv.ms/b/s!And2bv7mGIgupaNy6z8P17b4gJgAaw?e=GG5VVY) it).
 
-🎓 Obtained an MSc in Computer Science from the [University of Aveiro](https://www.ua.pt), in Portugal. My masters thesis project involed developing means of interaction with large public displays, and the code is [here](https://github.com/fmmendo/DetiInteract).
+🎓  Obtained an [MSc in Computer Science](https://www.ua.pt/en/c/23/p) from the [University of Aveiro](https://www.ua.pt), in Portugal. My master’s thesis project invovled developing means of interaction with large public displays, and the code is [here](https://github.com/fmmendo/DetiInteract).
 
-👨‍💻 I enjoy building things. A did quite a bit o UWP development for a while and some of that is available in my [Projects](/projects) page. More recently I've spent some time learning new things and some experiments can be found on [github](https://github.com/fmmendo).
+👨‍💻  I enjoy building things. A did quite a bit of UWP development for a while and some of that is available in my [Projects](/projects) page. More recently I have spent some time learning new things and some experiments can be found on [github](https://github.com/fmmendo).
 
-💎 I'm and avid reader and a regular at the movies. I also might have spent an hour too many in some videogames. A self-taught guitarist and a regular at rock gigs. Also theatre. I enjoy [travelling](http://www.fmendo.com/travel) and going to theme parks - can't get enough of roller coasters. Average bodyboarer and passable skier. Love a good burger.
+💎  I am an avid reader and a regular at the movies. I also might have spent an hour too many in some videogames. A self-taught guitarist and a regular at rock gigs. Also theatre. I enjoy [travelling](http://www.fmendo.com/travel) and going to theme parks - cannot get enough of roller coasters. Average bodyboarder and passable skier. Love a good burger.
 
-🏋️‍♂️ I like keeping fit. I probably spend a lot more time than I should at my local crossfit box. I also frequently sign up to muddy obstacle course races. 
+🏋️‍♂‍  I like keeping fit. I probably spend a lot more time than I should at my local crossfit box. I also frequently sign up to muddy obstacle course races. 
 
-🌍 Born in Canterbury, but live in Portugal most of my life. Moved to London for work in 2012 with the intention of trying other countries over time but I'm still here.
+🌍  Born in Canterbury but lived in Portugal most of my life. Moved to London for work in 2012 with the intention of trying other countries over time but I'm still here.
+
 
