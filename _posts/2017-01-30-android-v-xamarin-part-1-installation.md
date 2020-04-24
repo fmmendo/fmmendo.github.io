@@ -6,7 +6,7 @@ tags: [Android, Xamarin, Java, C#]
 categories: [Development]
 ---
 
-Two things that have been on my to do list for a while were learning a bit more Android and Xamarin, so I decided to do both at the same time. The plan was refresh my knowledge of Android and build _something_ with it, and then reproduce it in Xamarin, and use it as an exercise to compare them.<!--more-->
+Two things that have been on my to do list for a while were learning a bit more Android and Xamarin<!--more-->, so I decided to do both at the same time. The plan was refresh my knowledge of Android and build _something_ with it, and then reproduce it in Xamarin, and use it as an exercise to compare them.
 
 I had planned on starting with a very simple app. Not quite a hello world, just something with some input and output. This was also not a bad idea as just getting Xamarin to install and stop complaining was quite the endeavour. Due it taking way more time than I expected, I decided to vent a bit on this post and do the app comparison on a next post.
 

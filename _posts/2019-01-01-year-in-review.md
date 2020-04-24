@@ -2,15 +2,15 @@
 layout: post
 title: 2019 Year in Review
 comments: true
-tags: [Article, Year in Review]
+tags: []
 categories: [Article]
 ---
 
 I've been meaning to join in on the Year in Review posts, but missed the deadline last year, here it is now.
 
-First of, since this is the start of a new decade, I might as well do a quick round up of the last 10 years.
-
 <!--more-->
+
+First of, since this is the start of a new decade, let me do a quick round up of the last 10 years.
 
 ## 🌟 Decade in review.
 
