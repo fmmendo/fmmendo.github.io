@@ -126,6 +126,7 @@ li.mm-vertical.mm-opened > .mm-panel {
   .mm-navbar .mm-title {
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-variant: small-caps;
     overflow: hidden; }
   .mm-navbar .mm-btn {
     box-sizing: border-box;
@@ -170,6 +171,7 @@ li.mm-vertical.mm-opened > .mm-panel {
     .mm-listview > li > a,
     .mm-listview > li > span {
       text-overflow: ellipsis;
+	    font-variant: small-caps;
       white-space: nowrap;
       overflow: hidden;
       color: inherit;
@@ -550,6 +552,7 @@ html.mm-opened.mm-dragging #mm-blocker {
   border-top-style: solid;
   border-bottom: none;
   top: auto;
+  height: 0;
   bottom: 0; }
 
 .mm-navbar-top ~ .mm-navbar-top {

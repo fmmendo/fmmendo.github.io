@@ -1,0 +1,38 @@
+---
+layout: home
+title: "Hi, I'm Filipe"
+description: "Describe this nonsense."
+comments: false
+pagination:
+  enabled: true
+---
+
+{% for post in paginator.posts limit: 3 %}
+
+<div class="entry-meta">
+  <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a
+        href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span
+    class="author vcard"><span class="fn"><a href="{{ site.url }}/about/"
+        title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
+</div><!-- /.entry-meta -->
+{% if post.link %}
+<div class="entry-small-title">
+  <a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}">
+    <i class="fa fa-bookmark"></i>
+  </a>
+  <a href="{{ post.link }}">{{ post.title }}</a>
+</div>
+{% else %}
+<div class="entry-small-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}"
+    itemprop="url">{{ post.title }}</a></div>
+{% endif %}
+<div class="entry-content">
+
+</div><!-- /.entry-content -->
+{% if forloop.rindex > 1 %}
+<hr>
+{% endif %}
+{% endfor %}
+
+
+<!-- {% include pagination.html %} -->

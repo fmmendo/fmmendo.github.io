@@ -1,13 +1,12 @@
 ---
 layout: blog
-title: "Hi, I'm Filipe"
-description: "Describe this nonsense."
-comments: false
-pagination:
-  enabled: true
+title: Projects
+header-img: img/home-bg.jpg
 ---
 
-{% for post in paginator.posts %}
+<!-- Main Content -->
+
+{% for post in site.categories.App %}
 <article class="hentry">
   <header>
     {% if post.image.feature %}
@@ -52,3 +51,4 @@ pagination:
 {% endfor %}
 
 {% include pagination.html %}
+
