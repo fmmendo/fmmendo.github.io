@@ -20,12 +20,12 @@ url: http://www.fmendo.com
 menu:
   # - title: 'home'
   #   url: '/'
-  - title: 'about'
-    url: '/about'
   - title: 'blog'
     url: '/'
   - title: 'projects'
     url: '/projects'
+  - title: 'about'
+    url: '/about'
   # - title: 'resume'
   #   url: '/resume'
   # - title: 'tags'
@@ -52,12 +52,12 @@ owner:
   name:           Filipe Duarte
   site:           http://www.fmendo.com
   avatar:         images/avatar.jpg
-  bio:            "Hi, I&#8217;m Filipe and I&#8217;m a Windows Developer living in London"
+  bio:            "Hi, I&#8217;m Filipe. I&#8217;m a Software Engineer, from Portugal, currently living in London, building stuff for Paddle."
   email:          me@fmendo.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: fmmendo # if no twitter in this config, the twitter follow button will be removed
+  # twitter: fmmendo # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: fmmendo
+  # github: fmmendo
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -68,7 +68,13 @@ social:
   - title: "github"
     url: "https://github.com/fmmendo"
   - title: "linkedin"
-    url: "https://br.linkedin.com/in/filipemiguel"
+    url: "https://www.linkedin.com/in/filipemiguel"
+  - title: "twitter"
+    url: "https://www.twitter.com/fmmendo"
+  - title: "instagram"
+    url: "https://www.instagram.com/fmmendo"
+  - title: "envelope"
+    url: "mailto:me@fmendo.com"
 
 # Background image to be tiled on all pages
 background: 
