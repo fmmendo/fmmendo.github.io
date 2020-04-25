@@ -2,13 +2,12 @@
 layout: post
 title: GoodReads Universal App Development - OAuth [Part 2]
 comments: true
-tags: [API, C#, Development, GoodReads, OAuth, WinRT]
+tags: [API, C#, Development, GoodReads, OAuth, WinRT, UWP]
 categories: [Development]
 ---
-And I'm back. In the previous post I briefly touched on how the API calls for GoodReads looked like, now I'm going to mention authentication.
-<!--more-->
+In the previous post I briefly touched on how the API calls for GoodReads looked like, now I'm going to mention authentication.
 
-If you take a look at the GoodReads forums there are a lot of people with a few authentication troubles here and there, and solutions... not so much. The API is documented in ruby, and seen a couple of python implementations as well, but nothing on the C# side! So after much digging, banging my head, and cursing at my laptop I finally got it to work! ... I better write this down while it's still fresh. There is alot of information about OAuth at <a title="http://hueniverse.com" href="http://hueniverse.com">hueniverse.com</a>, which includes a great article on <a title="http://hueniverse.com/oauth/guide/authentication/" href="http://hueniverse.com/oauth/guide/authentication/">authentication</a>.
+If you take a look at the GoodReads forums there are a lot of people with a few authentication troubles here and there, and solutions... not so much.<!--more--> The API is documented in ruby, and seen a couple of python implementations as well, but nothing on the C# side! So after much digging, banging my head, and cursing at my laptop I finally got it to work! ... I better write this down while it's still fresh. There is alot of information about OAuth at <a title="http://hueniverse.com" href="http://hueniverse.com">hueniverse.com</a>, which includes a great article on <a title="http://hueniverse.com/oauth/guide/authentication/" href="http://hueniverse.com/oauth/guide/authentication/">authentication</a>.
 
 <h1>Getting the OAuth Token</h1>
 While there are a few API calls that do not require a user to be authenticated, the core of the social experience of GoodReads involves having a user logged in. WinRT gives us a nice class called WebAuthenticationBroker which brings up the familiar "Connect to a Service" popup, maintaining consistency across the OS, but GoodReads (and others) requires a bit more. It uses OAuth v1 so we need to deal with that first.

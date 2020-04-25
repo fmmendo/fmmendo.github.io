@@ -7,9 +7,8 @@ categories: [Development]
 ---
 
 With a new year starting I tasked myself to get a bit more active with my current and upcoming projects, as well as this website, so I've been setting up my dev environment from scratch to start the year with a clean slate.
-<!--more-->
 
-A while back, I decided to move this site from a relatively cumbersome Wordpress to a rather nimble Jekyll instance. At the time I followed the instructions on the [Jekyll Website](https://jekyllrb.com/docs/windows/). While this worked at the time (with a few minor issues), I decided I now wanted to try my luck with the [Windows Subsystem for Linux](https://blogs.msdn.microsoft.com/wsl/). Let's get started!
+A while back, I decided to move this site from a relatively cumbersome Wordpress to a rather nimble Jekyll instance.<!--more--> At the time I followed the instructions on the [Jekyll Website](https://jekyllrb.com/docs/windows/). While this worked at the time (with a few minor issues), I decided I now wanted to try my luck with the [Windows Subsystem for Linux](https://blogs.msdn.microsoft.com/wsl/). Let's get started!
 
 ### Install Bash on Ubuntu on Windows
 

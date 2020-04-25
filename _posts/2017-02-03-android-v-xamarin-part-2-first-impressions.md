@@ -6,9 +6,9 @@ tags: [Android, Xamarin, Java, C#]
 categories: [Development]
 ---
 
-As part of an ongoing project of mine, I build a very simple app to compare development on Android vs Xamarin.<!--more--> 
+As part of an ongoing project of mine, I build a very simple app to compare development on Android vs Xamarin.
 
-This was intended to be a very simple thing, just to point out the first things one would notice between the two environments. This probably didn't even warrant a post, but there was one thing that did stand out for me.
+This was intended to be a very simple thing, just to point out the first things one would notice between the two environments. This probably didn't even warrant a post, but there was one thing that did stand out for me.<!--more--> 
 
 ### XML vs AXML and Java vs C&#35;
 
