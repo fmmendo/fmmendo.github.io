@@ -27,7 +27,7 @@ menu:
   - title: 'more...'
     url: '#'
     submenu:
-      - title: 'travel'
+      - title: 'travel blog'
         url: '/travel'
       - title: 'tags'
         url: '/tags'
