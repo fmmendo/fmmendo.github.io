@@ -14,7 +14,7 @@ This is a collection of personal projects I've worked on in the past few years (
 <br/>
 
 ## Web Projects
-- [**MacroTool**](https://github.com/fmmendo/macroplanner) - An Angular app that creates a meal plan based on your details. It's algorithm will define a distinct macronutrient intake based on your percieved level of exertion for the days you go for a workout.  (_in progress_)
+- [**MacroTool**](https://www.fmendo.com/macrotool) - An Angular app that creates a meal plan based on your details. It's algorithm will define a distinct macronutrient intake based on your percieved level of exertion for the days you go for a workout. [Code on Github](https://github.com/fmmendo/macrotool)  (_in progress_)
 - [**FitMark**](https://github.com/fmmendo/fitmark) - An Angular app that benchmarks your fitness level by adding your scores to a series of fitness tests. (_in progress_)
 - [**fmendo.com**](https://www.fmendo.com) - this website. Just a simple site, built in Jekyll so I can have some virtual presence. I keep coming back to tinker with it. 
 
