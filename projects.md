@@ -31,5 +31,6 @@ This is a collection of personal projects I've worked on in the past few years (
 
 ## Misc
 - [**MendoTools**](https://github.com/fmmendo/MendoTools) - A series of helper classes I use in my UWP projects.
+- [**SimpleRest**](https://github.com/fmmendo/SimpleRest) - A simple REST client for use in UWP project. Stripped down and modified from [RestSharp](https://github.com/restsharp/RestSharp).
 - [**Hackernews CLI**](https://github.com/fmmendo/hackernews-cli) - A quick project to test out how to build a CLI tool in .NETCore. Pulls teh top posts using HackerNews's API.
 - [**win-provision**](https://github.com/fmmendo/win-provision) - Scripts to help set up a new/formatted windows machine (mostly) autonomously.

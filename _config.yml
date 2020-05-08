@@ -1,5 +1,5 @@
 title:            fmendo
-description:      'Hi, I&#8217;m Filipe and I&#8217;m a Windows Developer living in London'
+description:      'Hi, I&#8217;m Filipe and I&#8217;m a Software Engineer living in London'
 
 # put your disqus here
 disqus_shortname: fmendo
@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://www.fmendo.com
+url: https://www.fmendo.com
 
 # draw your top menu here
 # each item must have a title and a url.
