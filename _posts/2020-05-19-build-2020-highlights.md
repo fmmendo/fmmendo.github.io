@@ -27,7 +27,7 @@ I don't think any of this was "new new", but:
 
 # Azure Static Web Apps
 
-This was really cool to watch. It lets you deploy full stack web apps from a GitHub repo to Azure. These can be build by frameworks like Angular, React or View, or site generators like Gatsby. You set it up pointing to your repo and it automatically configures a GitHub Actions workflow. [Read more.](https://docs.microsoft.com/en-us/azure/static-web-apps/overview)
+This was really cool to watch. It lets you deploy full stack web apps from a GitHub repo to Azure. These can be build by frameworks like Angular, React or View, or site generators like Gatsby. You can also optionally have a backend powered by Azure Functions. You set it up pointing to your repo and it automatically configures a GitHub Actions workflow. [Read more.](https://docs.microsoft.com/en-us/azure/static-web-apps/overview)
 
 # WinUI 3
 
