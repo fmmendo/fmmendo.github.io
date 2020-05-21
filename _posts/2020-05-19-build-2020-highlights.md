@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Build 2020 Highlights - Day 1
+title: Build 2020 Highlights
 comments: true
 tags: [Article, Year in Review]
 categories: [Article]
 image:
-    feature: build.png
+    feature: build.jpg
 ---
 
 Build has started today, and like most events during this time it has gone virtual. I've been following it online and just wanted to mention a handful of things from the opening keynotes that made an impression.
