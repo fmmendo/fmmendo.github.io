@@ -12,7 +12,11 @@ Enthusiastic, consumer-focused, software engineer, passionate about human-comput
 ## Technical Skills
 ---
 
-| **Programming** | | |  C#, XAML, C/C++, Java, SQL, Python, Assembly |
+| **Languages** | | |  C#, XAML, C/C++, Java, Python, Go |
+| | | | |
+| **Cloud** | | |  AWS: Lambda, CloudFormation, API Gateway, CloudWatch, S3, Athena, ECS, ECR |
+| | | | |
+| **Database** | | |  SQL Server, MySQL, SQLite, LiteDB |
 | | | | |
 | **Frameworks** | | |  UWP, WinRT, .NET, WP8.x, WPF, Silverlight, MVVM, ASP.NET MVC, MSTest, Moq, Ninject, OpenGL, Android |
 
@@ -23,7 +27,12 @@ Enthusiastic, consumer-focused, software engineer, passionate about human-comput
 ### Senior .NET Software Engineer - Paddle<span style="font-size: small; color: #aaaaaa;"> April 2018 - Present
 ###### London, United Kingdom
 
-* Developed and released the [.NET Windows SDK](https://www.nuget.org/packages/Paddle.PaddleSDK/) for software companies to integrate their services with Paddle.
+* Released Paddle's [.NET Windows SDK](https://www.nuget.org/packages/Paddle.PaddleSDK/) which allows sellers to add Paddle’s in-app checkout, licensing, and analytics to their software.
+* Managed the CI/CD pipeline for the SDK’s build, test, and release to NuGet. 
+* Used AWS Lambda to automate seller pay-outs of over $20M/year.
+* Built a Python utility to handle our financial reconciliation.
+* Developed a new payment service using Go and gRPC/protobuf.
+* Improved the speed our vendor report generator by 100x by rewriting it in SQL.
 
 ### Senior Mobile Developer - Nodes<span style="font-size: small; color: #aaaaaa;"> May 2017 - April 2018
 ###### London, United Kingdom
@@ -37,15 +46,17 @@ Enthusiastic, consumer-focused, software engineer, passionate about human-comput
 ##### London, United Kingdom
 
 * Delivered Windows apps (from 8.1 to UWP) targeting phone, tablets,  desktop, and Xbox.
+* Mentored junior developers.
 * Focused on building great user experiences for every app.
-* Apps commissioned by international clients such as: [CBS](https://www.microsoft.com/en-us/store/p/cbs/9wzdncrfj0wk), NBC, [AMC](https://www.microsoft.com/en-us/store/p/amc/9nblggh1r5rn), [Just Eat](https://www.microsoft.com/en-gb/store/p/just-eat-takeaway/9wzdncrdkb2l?rtc=1), [Discovery News](https://www.microsoft.com/en-gb/store/p/discovery-news/9wzdncrdrchv?rtc=1), Camelot Loop, [MediaCore](https://blogs.msdn.microsoft.com/ukschools/2014/06/02/mediacore-enhancing-engagement-via-visual-learning-capture-app-feature/), [Epicurious](https://www.microsoft.com/en-gb/store/p/epicurious-recipes-shopping-list/9wzdncrfj2j1), [TimeOut](https://www.microsoft.com/en-us/store/p/time-out-london/9nblggh08l6q), [BigHand](https://www.microsoft.com/en-gb/store/p/bighand-go/9nblggh1z9wx), and [CBS News](https://www.microsoft.com/en-gb/store/p/cbs-news/9wzdncrdg3lf).
+* Developed UI-rich video-on-demand apps for [CBS](https://www.microsoft.com/en-us/store/p/cbs/9wzdncrfj0wk), [AMC](https://www.microsoft.com/en-us/store/p/amc/9nblggh1r5rn), and NBC across the Windows ecosystem.
+* Also released apps for [Just Eat](https://www.microsoft.com/en-gb/store/p/just-eat-takeaway/9wzdncrdkb2l?rtc=1), [Discovery News](https://www.microsoft.com/en-gb/store/p/discovery-news/9wzdncrdrchv?rtc=1), Camelot Loop, [MediaCore](https://blogs.msdn.microsoft.com/ukschools/2014/06/02/mediacore-enhancing-engagement-via-visual-learning-capture-app-feature/), [Epicurious](https://www.microsoft.com/en-gb/store/p/epicurious-recipes-shopping-list/9wzdncrfj2j1), [TimeOut](https://www.microsoft.com/en-us/store/p/time-out-london/9nblggh08l6q), [BigHand](https://www.microsoft.com/en-gb/store/p/bighand-go/9nblggh1z9wx), and [CBS News](https://www.microsoft.com/en-gb/store/p/cbs-news/9wzdncrdg3lf).
 
 ### C# Developer - Green Man Gaming<span style="font-size: small; color: #aaaaaa;"> Feb 2014 – Aug 2014
 ##### London, United Kingdom
 
 * Worked on the Playfire desktop client, which allowed users to track their Xbox, PlayStation, and Steam game stats.
 * Introduced MVVM to the team, leading to easier to maintain code, and increased unit-test coverage.
-* Added the capability to download, install, and run, games bought in the GMG store.
+* Built a download manager, along with the capability to install and run games bought through the GMG store.
 
 ### Windows Phone Software Engineer - Powa Technologies<span style="font-size: small; color: #aaaaaa;"> Oct 2013 – Jan 2014
 ##### London, United Kingdom
@@ -56,9 +67,11 @@ Enthusiastic, consumer-focused, software engineer, passionate about human-comput
 ### Software Developer - Arkk Solutions <span style="font-size: small; color: #aaaaaa;">Feb 2012 – Sep 2013
 ##### London, United Kingdom
 
-* Responsible for the development of the company's regulatory reporting software.
-* Increased performance and reduced memory usage of key functionalities.
-* Implemented a more versatile licensing system, and added new features and utilities as pat of the effort to expand to new markets.
+* Responsible for the development of Arkk’s Office Add-in.
+* Increased performance and reduced memory usage of the auto-tagger by using parallel code and inter-process communication.
+* Added new features and utilities allowing expansion to new markets.
+* Built a diff tool for XBRL files.
+* Implemented a more versatile licensing system.
 
 ### Programmer Analyst - Indra <span style="font-size: small; color: #aaaaaa;">Jun 2011 – Dec 2011
 ##### Lisbon, Portugal
