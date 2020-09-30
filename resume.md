@@ -13,12 +13,9 @@ Enthusiastic, consumer-focused, software engineer, passionate about human-comput
 ---
 
 | **Languages** | | |  C#, XAML, C/C++, Java, Python, Go |
-| | | | |
 | **Cloud** | | |  AWS: Lambda, CloudFormation, API Gateway, CloudWatch, S3, Athena, ECS, ECR |
-| | | | |
 | **Database** | | |  SQL Server, MySQL, SQLite, LiteDB |
-| | | | |
-| **Frameworks** | | |  UWP, WinRT, .NET, WP8.x, WPF, Silverlight, MVVM, ASP.NET MVC, MSTest, Moq, Ninject, OpenGL, Android |
+| **Tools/Frameworks** | | |  UWP, WinRT, .NET, .NET Core, WPF, MVVM, MSTest, nUnit, Moq, Ninject, Docker, gRPC, Android |
 
 <br />
 
