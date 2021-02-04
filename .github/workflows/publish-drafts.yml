@@ -1,8 +1,8 @@
 name: Publish Drafts
 
 on:
-  schedule:
-    - cron: "10/60 * * * *"
+  workflow_dispatch:
+    #- cron: "10/60 * * * *"
 
 jobs:
   build:
