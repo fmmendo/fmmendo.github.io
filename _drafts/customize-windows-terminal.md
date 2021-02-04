@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customizing the Windows Terminal
+title: "Customizing the Windows Terminal"
 comments: true
 date: 2021-02-06
 tags: [Terminal, Windows Terminal, Powershell, Scripting]
