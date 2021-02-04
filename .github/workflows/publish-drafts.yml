@@ -2,7 +2,7 @@ name: Publish Drafts
 
 on:
   schedule:
-    - cron: "*/60 * * * *"
+    - cron: "10/60 * * * *"
 
 jobs:
   build:
