@@ -16,7 +16,7 @@ This year was a bit of a write-off, but I did want to write down a few things.
 
 The first thing I'm going to pick on (and judging from what I see and hear around the web, I'm not alone in this) is the take home task. Particularly the large ones, or when the recruiter says there's "no time limit", or to deliver it "within 1-2 weeks".
 
-While these seem to be universally hated, they can be valuable if the task is properly designed, in which case it should take the applicant no more than a couple to get it done. Unfortunately most of these tasks end up taking 8+ hours to get done and considering most people have a day job, a commute, and other responsibilities, we're talking about losing at least a full week of free time (maybe even a chunk of the weekend).
+While these seem to be universally hated, they can be valuable if the task is properly designed, in which case it should take the applicant no more than a couple of hours to get it done. Unfortunately most of these tasks end up taking 8+ hours to get done and considering most people have a day job, a commute, and other responsibilities, we're talking about wasting at least a full week of free time (maybe even a chunk of the weekend).
 
 The first task I just declined to do involved, as usual, building some
 
