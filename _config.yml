@@ -1,11 +1,11 @@
-title:            fmendo
-description:      'Hi, I&#8217;m Filipe and I&#8217;m a Software Engineer living in London'
+title: fmendo
+description: "Hi, I&#8217;m Filipe and I&#8217;m a Software Engineer living in London"
 
 # put your disqus here
 disqus_shortname: fmendo
-reading_time:     true # if true, shows the estimated reading time for a post
+reading_time: true # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo:             images/logo.png # logo visible in the topbar
+logo: images/logo.png # logo visible in the topbar
 excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
@@ -18,31 +18,31 @@ url: https://www.fmendo.com
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'blog'
-    url: '/'
-  - title: 'projects'
-    url: '/projects'
-  - title: 'about'
-    url: '/about'
-  - title: 'more...'
-    url: '#'
+  - title: "blog"
+    url: "/"
+  - title: "projects"
+    url: "/projects"
+  - title: "about"
+    url: "/about"
+  - title: "more..."
+    url: "#"
     submenu:
-      - title: 'travel blog'
-        url: '/travel'
-      - title: 'tags'
-        url: '/tags'
-      - title: 'archive'
-        url: '/posts'
-      - title: 'rss'
-        url: '/feed.xml'
+      - title: "travel blog"
+        url: "/travel"
+      - title: "tags"
+        url: "/tags"
+      - title: "archive"
+        url: "/posts"
+      - title: "rss"
+        url: "/feed.xml"
 
 # Owner/author information
 owner:
-  name:           Filipe Duarte
-  site:           http://www.fmendo.com
-  avatar:         images/avatar.jpg
-  bio:            "Hi, I&#8217;m Filipe. I&#8217;m a Software Engineer, from Portugal, currently living in London, building stuff for Paddle."
-  email:          me@fmendo.com
+  name: Filipe Duarte
+  site: http://www.fmendo.com
+  avatar: images/avatar.jpg
+  bio: "Hi, I&#8217;m Filipe. I&#8217;m a Software Engineer, from Portugal, currently living in London, building stuff for Paddle."
+  email: me@fmendo.com
   # Twitter nick for use in Twitter cards and follow button.
   # twitter: fmmendo # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
@@ -75,17 +75,17 @@ google_verify:
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/London
-locale:      en_GB
-future:      true
+timezone: Europe/London
+locale: en_GB
+future: false
 highlighter: rouge
-markdown:    kramdown
+markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /blog/:title/
+permalink: /blog/:title/
 
 # Amount of post to show on home page
 paginate: 5
@@ -104,5 +104,28 @@ page_layout: page
 titlecase: true
 
 include: [".htaccess"]
-exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude:
+  [
+    "demo/*",
+    "lib",
+    "config.rb",
+    "Capfile",
+    "config",
+    "Gemfile",
+    "Gemfile.lock",
+    "README.md",
+    "LICENSE",
+    "log",
+    "Rakefile",
+    "Rakefile.rb",
+    "tmp",
+    "less",
+    "*.sublime-project",
+    "*.sublime-workspace",
+    "test",
+    "spec",
+    "Gruntfile.js",
+    "package.json",
+    "node_modules",
+  ]
 gems: [jekyll-paginate]
