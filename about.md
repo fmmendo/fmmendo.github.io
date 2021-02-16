@@ -12,7 +12,7 @@ I try to blog mostly about dev stuff, from projects I’m working on, to problem
 When I’m not coding, I can be found behind a good book, enjoying a good movie, pretending I can shread on my guitar, travelling with friends, riding some waves or (stumbling down) some slopes, going to gigs, and occasionally at the theatre, having a burger, or saving the world in some videogame.
 
 ### Background
-I am currently a developer at [Paddle](http://www.paddle.com/), working on the Windows SDK. I hold a [Masters in Computer Engineering](http://www.ua.pt/ensino/PageCourse.aspx?id=23&amp;p=4&amp;a=9) from the [University of Aveiro](http://www.ua.pt), in Portugal, where my love for programming began. I ended up writing my Masters’ dissertation on “Interaction with Large Displays in a Public Space via a Mobile Device” where I got to explore the world of Human-Computer Interaction and User Experience, and a bit of Computer Graphics on the side. The result is still in display in the university, and more [details](/app/2012/12/09/deti-interact/
+I am currently a developer at [NewDay](https://www.newday.co.uk/), working with .NET Core/.NET5 on Azure. I hold a [Masters in Computer Engineering](http://www.ua.pt/ensino/PageCourse.aspx?id=23&amp;p=4&amp;a=9) from the [University of Aveiro](http://www.ua.pt), in Portugal, where my love for programming began. I ended up writing my Masters’ dissertation on “Interaction with Large Displays in a Public Space via a Mobile Device” where I got to explore the world of Human-Computer Interaction and User Experience, and a bit of Computer Graphics on the side. The result is still in display in the university, and more [details](/app/2012/12/09/deti-interact/
 ) can be found in my [Projects](/apps) page. -->
 
 <h1 style="text-align: center">About me</h1>
@@ -35,7 +35,7 @@ I am currently a developer at [Paddle](http://www.paddle.com/), working on the W
 <hr/>
 <br/>
 
-💼  Currently a Senior Software Engineer at [Paddle](https://www.paddle.com/). Previously built UWP apps at [UI Centric](https://www.uicentric.com/) and [Nodes](https://www.nodesagency.com/). You can find more details in my [resume](/resume) page (or [download](https://1drv.ms/b/s!And2bv7mGIgupaNy6z8P17b4gJgAaw?e=GG5VVY) it).
+💼  Currently a Senior Software Engineer at [NewDay](https://www.newday.co.uk/). Previously built an SDK and some microservices at [Paddle](https://www.paddle.com/), UWP apps at [UI Centric](https://www.uicentric.com/) and [Nodes](https://www.nodesagency.com/). You can find more details in my [resume](/resume) page (or [download](https://1drv.ms/b/s!And2bv7mGIgupaNy6z8P17b4gJgAaw?e=GG5VVY) it).
 
 🎓  Obtained an [MSc in Computer Science](https://www.ua.pt/en/c/23/p) from the [University of Aveiro](https://www.ua.pt), in Portugal. My master’s thesis project invovled developing means of interaction with large public displays, and the code is [here](https://github.com/fmmendo/DetiInteract).
 
