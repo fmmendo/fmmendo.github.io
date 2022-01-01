@@ -6,7 +6,7 @@ tags: [Article, Year in Review]
 categories: [Article]
 ---
 
-Right, so 2021 was an improvement on 2020, but still no quite the year things take off. 😅
+Right, so 2021 was an improvement on 2020, but still not quite the year things take off again. 😅
 
 <!--more-->
 
