@@ -9,8 +9,8 @@ _updated 2021_
 
 ## Editor & Terminal
 
-- Most of my work centres around .NET development so [Visual Studio Community]() is the absolute beste, and therefore my IDE of choice.
-- I also use [Visual Studio Code]() for everything else. It has become quite good for .Net Core work as well, though there are a few things where old Visual Studio still excells.
+- Most of my work centres around .NET development so [Visual Studio Community]() is the absolute best, and therefore my IDE of choice.
+- I also use [Visual Studio Code]() for everything else. It has become quite good for .Net Core work as well, though there are a few things where old Visual Studio still excels.
 - Being on Windows, I use [Windows Terminal]() with [oh-my-posh]() and a custom theme for all my CLI needs, including jumping into WSL when needed.
 - To speed up gething a machine ready to work, I have scripted most installations and configurations. It's a bit of an always changing script but I've got it all up in my [win-provision]() repo.
 
@@ -42,8 +42,8 @@ Most of these are automatically installed with the [win-provision]() scripts I m
 
 ## Hardware Setup
 
-- Currently using [15" Surface Book 2]() with a 512GB SSD and 16GB RAM and absolutely loving it. This was an upgrade from an old Surface Pro 3 (and to be honest, givent the extra portability of the Pro, in a future upgrade I just might return to the Pro line).
-- My job also provided me with a Dell Latitute. Don't really know the details on it but it gets the job done. Should be upgraded soon.
+- Currently using [Surface Pro 8]() with a 256GB SSD and 16GB RAM and absolutely loving it. 
+- My job also provided me with a Dell Latitute. Don't really know the details on it but frankly it's a bit sh*t. 
 - An old 24" Asus monitor 😅 (poor thing needs updating).
 - A gorgeous 4K [Samsung M70A 32"](https://www.samsung.com/uk/monitors/business/smart-m7-32-inch-uhd-4k-ls32am700uuxen/) screen. It's massive, has some Smart TV elements and functions as a USB-C Hub.
 - My keyboard is a [Glorious GMMK TKL White Ice]() with [Zilent V2]() switches. After months of indecision I finally pulled the trigger on the keyboard and replaced the Gateron browns with some lovely Zilents. Now _that's_ tactility.
