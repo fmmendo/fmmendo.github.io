@@ -1,131 +1,44 @@
-title: fmendo
-description: "Hi, I&#8217;m Filipe and I&#8217;m a Software Engineer living in London"
+# site settings
+title: Forty
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
 
-# put your disqus here
-disqus_shortname: fmendo
-reading_time: true # if true, shows the estimated reading time for a post
-words_per_minute: 200
-logo: images/logo.png # logo visible in the topbar
-excerpt_separator: <!--more-->
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-url: https://www.fmendo.com
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/andrewbanchich
+  GitLab:
+  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Instagram:
+  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  Twitter: https://twitter.com/andrewbanchich
+  Facebook:
+  Slack:
 
-# draw your top menu here
-# each item must have a title and a url.
-#   To list post categories. use type: 'categories'
-#   To create sub categories. add a submenu item
-# See the example
-menu:
-  - title: "blog"
-    url: "/"
-  - title: "projects"
-    url: "/projects"
-  - title: "about"
-    url: "/about"
-  - title: "more..."
-    url: "#"
-    submenu:
-      - title: "travel blog"
-        url: "/travel"
-      - title: "tags"
-        url: "/tags"
-      - title: "archive"
-        url: "/posts"
-      - title: "rss"
-        url: "/feed.xml"
-
-# Owner/author information
-owner:
-  name: Filipe Duarte
-  site: http://www.fmendo.com
-  avatar: images/avatar.jpg
-  bio: "Hi, I&#8217;m Filipe. I&#8217;m a Software Engineer, from Portugal, currently living in London, building stuff for NewDay."
-  email: me@fmendo.com
-  # Twitter nick for use in Twitter cards and follow button.
-  # twitter: fmmendo # if no twitter in this config, the twitter follow button will be removed
-  # GitHub nick for use in follow button in author block.
-  # github: fmmendo
-
-# Twitter account associated with the site if different from owner/author twitter account.
-# Used in Twitter cards.
-twitter:
-
-# Social networking links used in author block underneath posts. Update and remove as you like.
-social:
-  - title: "github"
-    url: "https://github.com/fmmendo"
-  - title: "linkedin"
-    url: "https://www.linkedin.com/in/filipemiguel"
-  - title: "twitter"
-    url: "https://www.twitter.com/fmmendo"
-  - title: "instagram"
-    url: "https://www.instagram.com/fmmendo"
-  - title: "envelope"
-    url: "mailto:me@fmendo.com"
-
-# Background image to be tiled on all pages
-background:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Europe/London
-locale: en_GB
-future: false
-highlighter: rouge
+# build settings
 markdown: kramdown
+
 sass:
-  sass_dir: _sass
   style: compressed
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /blog/:title/
-
-# Amount of post to show on home page
-paginate: 5
-
-# if true, shows the floatting share buttons
-float_share: false
-
-# Octopress
-# Default extensions
-post_ext: md
-page_ext: md
-# Found in _templates/
-post_layout: post
-page_layout: page
-# Format titles with titlecase?
-titlecase: true
-
-include: [".htaccess"]
 exclude:
-  [
-    "demo/*",
-    "lib",
-    "config.rb",
-    "Capfile",
-    "config",
-    "Gemfile",
-    "Gemfile.lock",
-    "README.md",
-    "LICENSE",
-    "log",
-    "Rakefile",
-    "Rakefile.rb",
-    "tmp",
-    "less",
-    "*.sublime-project",
-    "*.sublime-workspace",
-    "test",
-    "spec",
-    "Gruntfile.js",
-    "package.json",
-    "node_modules",
-  ]
-gems: [jekyll-paginate]
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 

@@ -1,7 +1,7 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'octopress'
-gem 'jekyll-paginate'
-gem 'neo-hpstr-jekyll-theme'
-gem 'kramdown-parser-gfm'
-gem "webrick", "~> 1.7"
+gem 'jekyll', '~> 4.2'
+
+group :jekyll_plugins do
+  gem 'jekyll-timeago', '~> 0.13.1'
+end
