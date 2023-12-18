@@ -43,7 +43,6 @@
             {% endif %}
         {% endif %}
       {% endfor %}
-      <li class="header-item"><a href="{{site.url}}/search"><h3><i class="fa fa-search"></i></h3></a></li>
     </ul>
   </div>
   
@@ -76,7 +75,3 @@
     {% endfor %}
   </ul>
 </nav>
-
-{% if site.owner.twitter %}
-  <a href="https://twitter.com/{{site.owner.twitter}}" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @{{site.owner.twitter}}</span></a>
-{% endif %}

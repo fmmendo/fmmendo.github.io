@@ -24,17 +24,8 @@ menu:
     url: "/projects"
   - title: "about"
     url: "/about"
-  - title: "more..."
-    url: "#"
-    submenu:
-      - title: "travel blog"
-        url: "/travel"
-      - title: "tags"
-        url: "/tags"
-      - title: "archive"
-        url: "/posts"
-      - title: "rss"
-        url: "/feed.xml"
+  - title: "resume"
+    url: "/resume"
 
 # Owner/author information
 owner:

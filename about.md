@@ -48,5 +48,3 @@ I am currently a developer at [NewDay](https://www.newday.co.uk/), working with 
 🌍  Born in Canterbury but lived in Portugal most of my life. Moved to London for work in 2012 with the intention of trying other countries over time but I'm still here.
 
 <br/>
-<hr/>
-<br/>
