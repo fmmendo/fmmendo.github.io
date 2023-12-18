@@ -3,22 +3,25 @@ layout: page
 title: Resume
 ---
 
+<h1 style="text-align: center">Resume</h1>
+
 ## Overview
 
 ---
 
-Enthusiastic, consumer-focused, software engineer, passionate about human-computer interaction and delivering great user experiences.
+Enthusiastic senior software engineer with over 10 years of experience in C# and .NET, and a keen interest in the latest technologies. My experience has provided me with excellent opportunities to build robust applications and services with global reach.
 
 <br />
 
 ## Technical Skills
 
-|                      |                                                                                            |
-| -------------------- | ------------------------------------------------------------------------------------------ |
+|                       |                                                                                           |
+| --------------------- | ----------------------------------------------------------------------------------------- |
 | **Languages**        | C#, XAML, C/C++, Java, Python, Go                                                          |
-| **Cloud**            | AWS: Lambda, CloudFormation, API Gateway, CloudWatch, S3, Athena, ECS, ECR                 |
-| **Database**         | SQL Server, MySQL, SQLite, LiteDB                                                          |
-| **Tools/Frameworks** | UWP, WinRT, .NET, .NET Core, WPF, MVVM, MSTest, nUnit, Moq, Ninject, Docker, gRPC, Android |
+| **Cloud**            | Azure: Functions, CosmosDB, ServiceBus, EventGrid, DataFactory
+| | AWS: Lambda, CloudFormation, API Gateway, CloudWatch, S3, Athena, ECS, ECR                 |
+| **Database**         | SQL Server, CosmosDB, MySQL, SQLite, LiteDB                                                          |
+| **Tools/Frameworks** | UWP, WinRT, .NET, .NET Core, WPF, MVVM, MSTest, nUnit, Moq, Docker, gRPC, Android |
 
 <br />
 
@@ -26,13 +29,17 @@ Enthusiastic, consumer-focused, software engineer, passionate about human-comput
 
 ---
 
-### Senior Specialist, Developer - NewDay<span style="font-size: small; color: #aaaaaa;"> April 2018 - June 2020
+### Senior Specialist, Developer - NewDay<span style="font-size: small; color: #aaaaaa;"> Jan 2020 - Present
 
 ###### London, United Kingdom
+- Delivered a set of APIs to handle the customer journey in the Collections platform.
+- Built an event sourcing platform using CosmosDB, ServiceBus and Azure Functions to handle the flow of data for over 5M accounts in our Collections platform.
+- Mentored junior developers.
+- Assisted in hiring new developers.
+
 
 ### Senior .NET Software Engineer - Paddle<span style="font-size: small; color: #aaaaaa;"> April 2018 - June 2020
-
-###### London, United Kingdom
+<span style="font-size: small; color: #aaaaaa;"> London, United Kingdom
 
 - Released Paddle's [.NET Windows SDK](https://www.nuget.org/packages/Paddle.PaddleSDK/) which allows sellers to add Paddle’s in-app checkout, licensing, and analytics to their software.
 - Managed the CI/CD pipeline for the SDK’s build, test, and release to NuGet.
@@ -65,7 +72,7 @@ Enthusiastic, consumer-focused, software engineer, passionate about human-comput
 ##### London, United Kingdom
 
 - Worked on the Playfire desktop client, which allowed users to track their Xbox, PlayStation, and Steam game stats.
-- Introduced MVVM to the team, leading to easier to maintain code, and increased unit-test coverage.
+- Led the introduction of MVVM to the team, resulting in easier to maintain code and increased test coverage.
 - Built a download manager, along with the capability to install and run games bought through the GMG store.
 
 ### Windows Phone Software Engineer - Powa Technologies<span style="font-size: small; color: #aaaaaa;"> Oct 2013 – Jan 2014
@@ -94,6 +101,16 @@ Enthusiastic, consumer-focused, software engineer, passionate about human-comput
 
 <br />
 
+## Certifications
+
+---
+
+
+### [Microsoft Certified: Azure Developer Associate](https://learn.microsoft.com/en-us/users/filipeduarte-0546/credentials/24f8101a697104)
+Microsoft, Sep 2023
+
+<br />
+
 ## Education
 
 ---
@@ -102,15 +119,17 @@ Enthusiastic, consumer-focused, software engineer, passionate about human-comput
 
 ##### University of Aveiro
 
-- Dissertation: _DETI Interact – Interaction with public displays via a mobile device_.
+- Principal Modules: Software Engineering, Human-Computer Interaction, Computer Graphics, Distributed Systems, Image Analysis and Understanding, Project Management.
 
-- Technologies used include .NET, C#, WPF, XAML, XNA, Android, Java and Bluetooth (project hosted at [http://detiinteract.codeplex.com](http://detiinteract.codeplex.com)).
+<br />
+
+- Dissertation: _DETI Interact – Interaction with public displays via a mobile device_.
+- Technologies used include .NET, C#, WPF, XAML, XNA, Android, Java and Bluetooth (project hosted on [github](https://github.com/fmmendo/DetiInteract)).
 - Planned, designed, and implemented a remotely controlled Information System.
 - Prepared and conducted several user testing sessions.
 - Published: “ _DETI - Interact: Interacting with public displays through mobile phones_” in the Proceedings of CISTI 2011, Workshop on Information Systems for Interactive Spaces, Chaves, 15-18 June 2011, Chaves Portugal. Authors: Filipe Duarte, Paulo Dias, Beatriz Sousa Santos.
 
-- Principal Modules: Software Engineering, Human-Computer Interaction, Computer Graphics, Distributed Systems, Image Analysis and Understanding, Project Management.
-- Activities:
+<br />
 
 - Organizing Committee as a student volunteer at "INTERACÇÃO 2010", the National Conference on Human-Computer Interaction, held in the University of Aveiro 13-15 October, 2010.
 - Gave a workshop on "DETI Interact and Android Systems" as part of the Informatics and Multimedia Week on the Padre António Morais da Fonseca School, in Murtosa, Portugal, on May 6th, 2011.
@@ -121,7 +140,7 @@ Enthusiastic, consumer-focused, software engineer, passionate about human-comput
 
 - Principal Modules: Algorithms, Object-Oriented Programming, Operating Systems, Database Management Systems, Computer Architectures, Network Architectures
 
-<br/>
+<br />
 
 ---
 

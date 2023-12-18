@@ -16,7 +16,7 @@ url: https://www.fmendo.com
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: "blog"
+  - title: "home"
     url: "/"
   - title: "projects"
     url: "/projects"
@@ -30,7 +30,7 @@ owner:
   name: Filipe Duarte
   site: http://www.fmendo.com
   avatar: images/avatar.jpg
-  bio: "Hi, I&#8217;m Filipe. I&#8217;m a software engineer from Portugal, currently living in London building stuff for NewDay."
+  bio: "Hi, I&#8217;m Filipe. I&#8217;m a software engineer from Portugal, currently living in London building cool dotnet things at NewDay."
   email: me@fmendo.com
   # Twitter nick for use in Twitter cards and follow button.
   # twitter: fmmendo # if no twitter in this config, the twitter follow button will be removed

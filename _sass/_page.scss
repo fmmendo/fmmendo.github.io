@@ -19,7 +19,7 @@ body {
 	background-color: $header-color;
 }
 .entry-content {
-	@include font-size(16);
+	@include font-size(18);
 	// Dotted line underlines for links
 	p > a,
 	li > a {
@@ -353,7 +353,7 @@ ul.social-buttons li a:active {
 	}
 	article {
 		background-color: $white;
-		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
+		// box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
 		@include rounded(3px);
 		margin-bottom: 20px;
 		padding: 25px 15px;
@@ -398,20 +398,6 @@ ul.social-buttons li a:active {
 	color: lighten($text-color,20);
 	a {
 		color: lighten($text-color,20);
-	}
-}
-
-// Social Share
-// --------------------------------------------------
-.socialcount {
-	@include font-rem(16);
-	li {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	p > a,
-	li > a {
-		border-bottom-width: 0;
 	}
 }
 
