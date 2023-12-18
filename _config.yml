@@ -1,8 +1,6 @@
 title: fmendo
 description: "Hi, I&#8217;m Filipe and I&#8217;m a Software Engineer living in London"
 
-# put your disqus here
-disqus_shortname: fmendo
 reading_time: true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo: images/logo.png # logo visible in the topbar
@@ -32,7 +30,7 @@ owner:
   name: Filipe Duarte
   site: http://www.fmendo.com
   avatar: images/avatar.jpg
-  bio: "Hi, I&#8217;m Filipe. I&#8217;m a Software Engineer, from Portugal, currently living in London, building stuff for NewDay."
+  bio: "Hi, I&#8217;m Filipe. I&#8217;m a software engineer from Portugal, currently living in London building stuff for NewDay."
   email: me@fmendo.com
   # Twitter nick for use in Twitter cards and follow button.
   # twitter: fmmendo # if no twitter in this config, the twitter follow button will be removed
@@ -119,4 +117,4 @@ exclude:
     "package.json",
     "node_modules",
   ]
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]

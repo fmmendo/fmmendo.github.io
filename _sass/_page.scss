@@ -139,7 +139,7 @@ header .entry-meta {
 		margin: 40px 2px 20px 2px;
 		padding: 10px 15px;
 		background-color: $white;
-		box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
+		// box-shadow: 0 0 0 0, 0 6px 12px rgba($black,0.1);
 		@include rounded(3px);
 		@media #{$medium} {
 			margin-left: 10px;
@@ -147,29 +147,12 @@ header .entry-meta {
 			padding: 20px 30px;
 		}
 		@media #{$large} {
-			max-width: 800px;
+			max-width: 1000px;
 			margin: 50px auto 30px auto;
 			padding: 50px 80px;
 			> p:first-child {
 				@include font-size(20);
 			}
-		}
-	}
-	#disqus_thread {
-		margin: 40px 2px 20px 2px;
-		padding: 10px 15px;
-		background-color: $white;
-		box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba($black,0.1);
-		@include rounded(3px);
-		@media #{$medium} {
-			margin-left: 10px;
-			margin-right: 10px;
-			padding: 20px 30px;
-		}
-		@media #{$large} {
-			max-width: 800px;
-			padding: 50px 80px;
-			margin: 0 auto 30px auto;
 		}
 	}
 	.entry-meta {
@@ -237,7 +220,7 @@ header .entry-meta {
 		padding: 50px 40px 25px;
 	}
 	@media #{$large} {
-		max-width: 800px;
+		max-width: 1000px;
 		padding: 50px 80px;
 		margin: 60px auto;
 	}
@@ -362,7 +345,7 @@ ul.social-buttons li a:active {
 			margin-right: 20px;
 		}
 		@media #{$large} {
-			max-width: 800px;
+			max-width: 1000px;
 			margin-top: 50px;
 			margin-left: auto;
 			margin-right: auto;
@@ -561,13 +544,13 @@ ul.social-buttons li a:active {
 		height: 100%;
 		padding: 0;
 		@media #{$large} {
-			max-width: 900px;
+			max-width: 1000px;
 		}
 	}
 }
 .header-menu-top{
 	background-color: $menu-overflow;
-	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
+	// box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
 }
 .header-menu-top ul li a{
 	color: $white;
@@ -576,7 +559,7 @@ ul.social-buttons li a:active {
 .header-menu-overflow{
 	background-color: $menu-overflow;
 	z-index: 100;
-	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
+	// box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.4);
 }
 .header-menu-overflow ul li a{
 	color: $white;
