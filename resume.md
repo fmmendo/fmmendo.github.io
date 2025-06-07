@@ -9,7 +9,7 @@ title: Resume
 
 ---
 
-Enthusiastic senior software engineer with over 10 years of experience in C# and .NET, and a keen interest in the latest technologies. My experience has provided me with excellent opportunities to build robust applications and services with global reach.
+Results-driven Senior Software Engineer with 13+ years of experience specializing in C#, .NET, cloud architecture, and distributed systems. Proven track record of designing and implementing scalable applications. Experienced in Azure and AWS cloud platforms and with event-driven architectures and microservices.
 
 <br />
 
@@ -17,11 +17,12 @@ Enthusiastic senior software engineer with over 10 years of experience in C# and
 
 |                       |                                                                                           |
 | --------------------- | ----------------------------------------------------------------------------------------- |
-| **Languages**        | C#, XAML, C/C++, Java, Python, Go                                                          |
-| **Cloud**            | Azure: Functions, CosmosDB, ServiceBus, EventGrid, DataFactory
+| **Languages**        | C#, Python, Go, C++, Java, SQL, HTML, XML, XAML                                                          |
+| **Cloud**            | Azure: Functions, CosmosDB, ServiceBus, EventGrid, DataFactory, AppInsights
 | | AWS: Lambda, CloudFormation, API Gateway, CloudWatch, S3, Athena, ECS, ECR                 |
 | **Database**         | SQL Server, CosmosDB, MySQL, SQLite, LiteDB                                                          |
-| **Tools/Frameworks** | UWP, WinRT, .NET, .NET Core, WPF, MVVM, MSTest, nUnit, Moq, Docker, gRPC, Android |
+| **DevOps & CI/CD** | Azure DevOps, GitHub Actions, Jenkins, Docker, MSTest, nUnit, Moq |
+| **Software Development** | Microservices, RESTful APIs, Event Sourcing, .NET, .NET Core, WPF, UWP, MVVM, GitHub, GitHub Copilot |
 
 <br />
 
@@ -33,22 +34,23 @@ Enthusiastic senior software engineer with over 10 years of experience in C# and
 
 <p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Jan 2020 - Present  |  London, United Kingdom</p>
 
-- Delivered a set of APIs to handle the customer journey in the Collections platform.
-- Built an event sourcing platform using CosmosDB, ServiceBus and Azure Functions to handle the flow of data for over 5M accounts in our Collections platform.
-- Mentored junior developers.
-- Assisted in hiring new developers.
-
+-	Built a multi-tenant event sourcing platform with CosmosDB, ServiceBus and Azure Functions to handle workflows for 5M+ accounts.
+-	Delivered a robust set of RESTful APIs for the Collections platform customer journey.
+-	Led a data migration and consolidation across three systems, ensuring system integrity.
+-	Participated in on-call rotations, diagnosed production issues, and implemented resilient service patterns to reduce incident frequency.
+-	Mentored junior developers and assisted in hiring and onboarding new engineers.
 
 ### Senior .NET Software Engineer - Paddle
 
 <p style="font-size: small; color: #aaaaaa; margin-top: -25px"> April 2018 - June 2020  |  London, United Kingdom</p>
 
-- Released Paddle's [.NET Windows SDK](https://www.nuget.org/packages/Paddle.PaddleSDK/) which allows sellers to add Paddle’s in-app checkout, licensing, and analytics to their software.
-- Managed the CI/CD pipeline for the SDK’s build, test, and release to NuGet.
-- Used AWS Lambda to automate seller pay-outs of over $20M/year.
-- Built a Python utility to handle our financial reconciliation.
-- Developed a new payment service using Go and gRPC/protobuf.
-- Improved the speed our vendor report generator by 100x by rewriting it in SQL.
+- •	Designed and maintained Paddle’s [.NET Windows SDK](https://www.nuget.org/packages/Paddle.PaddleSDK/) enabling seamless in-app checkout, licensing, and analytics.
+-	Managed the CI/CD pipeline, ensuring automated builds, tests, and deployment to NuGet. 
+-	Prioritized developer experience through SDK usability and documentation improvements.
+-	Developed an AWS Lambda solution to automate seller payouts, handling $20M+ yearly transactions.
+-	Built a Python-based financial reconciliation tool, enhancing reporting efficiency.
+-	Created a new payment service using Go and gRPC/protobuf.
+-	Optimised vendor report generation, improving speed by 100x.
 
 ### Senior Mobile Developer - Nodes
 
