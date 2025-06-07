@@ -32,7 +32,7 @@ header-img: img/about-bg.jpg
 
 💎  I am an avid reader and a regular at the movies. I also might have spent an hour too many in some videogames. A self-taught guitarist and a regular at rock gigs. Also theatre. I enjoy travelling and going to theme parks - cannot get enough of roller coasters. Whenever I'm at the beach I try to sqeeze in some bodyboarding and I'll book a ski trip whenever possbile. Love a good burger.
 
-🏋️‍♂‍  I like keeping fit. I probably spend a lot more time than I should at my local crossfit box. I enjoy challenging myself with a few spartan races every once in a while. And I'm also out on my road bike or bouldering with friends.
+🏋️‍♂‍  I like keeping fit. I probably spend a lot more time than I should at my local crossfit box. I enjoy challenging myself with a few spartan races and triathlons every once in a while. And I'm also out on my road bike or bouldering with friends.
 
 🌍  Born in Canterbury, UK, but lived in Portugal most of my life. Moved to London for work in 2012 thinking I'd move around to other countries over time but I'm still enjoying it here.
 
