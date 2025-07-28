@@ -27,7 +27,7 @@ ssh-add ~/.ssh/id_rsa
 And here's the bit that I was missing and was driving me nuts: actually configure git to use the ssh agent you added the key to:
 
 ```bash
-git config --global core.sshComand C:/Windows/System32/OpenSSH/ssh.exe
+git config --global core.sshCommand C:/Windows/System32/OpenSSH/ssh.exe
 ```
 
 It should now no longer keep pestering you for your password.
