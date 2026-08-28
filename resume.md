@@ -32,7 +32,7 @@ Results-driven Senior Software Engineer with 13+ years of experience specializin
 
 ### Senior Specialist, Developer - NewDay
 
-<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Jan 2020 - Present  |  London, United Kingdom</p>
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Jan 2020 - Feb 2025  |  London, United Kingdom</p>
 
 -	Built a multi-tenant event sourcing platform with CosmosDB, ServiceBus and Azure Functions to handle workflows for 5M+ accounts.
 -	Delivered a robust set of RESTful APIs for the Collections platform customer journey.
