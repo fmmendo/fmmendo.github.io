@@ -17,10 +17,10 @@ Senior Software Engineer with 15+ years' experience designing and building cloud
 
 |                       |                                                                                           |
 | --------------------- | ----------------------------------------------------------------------------------------- |
-| **Core**           | Backend Development, Platform Engineering, Distributed Systems, Internal Tooling, Cloud Architecture, Event-Driven Systems, REST API Design, Microservices, Financial Systems, Agile Development |
-| **Languages & Frameworks** | C#, Python, Go, SQL, .NET / ASP.NET Core, WPF, MVVM |
-| **Cloud & Devops** | Azure (Functions, CosmosDB, ServiceBus, EventGrid, DataFactory, AppInsights), AWS (Lambda, DynamoDB, CloudFormation, API Gateway, CloudWatch, ECS, S3), Docker, GitHub Actions, Jenkins, Git |
-| **Database & Testing** | SQL Server, CosmosDB, MySQL, SQLite, MSTest, nUnit, Moq |
+| **Core**<br><br>       | Backend Development, Platform Engineering, Distributed Systems, Internal Tooling, Cloud Architecture, Event-Driven Systems, REST API Design, Microservices, Financial Systems, Agile Development |
+| **Languages & Frameworks** | C#, Python, Go, SQL, .NET / ASP.NET Core, WPF, MVVM <br> |
+| **Cloud & Devops** <br><br>| Azure (Functions, CosmosDB, ServiceBus, EventGrid, DataFactory, AppInsights), AWS (Lambda, DynamoDB, CloudFormation, API Gateway, CloudWatch, ECS, S3), Docker, GitHub Actions, Jenkins, Git |
+| **Database & Testing** | SQL Server, CosmosDB, MySQL, SQLite, MSTest, nUnit, Moq <br>|
 
 <br />
 
