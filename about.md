@@ -24,7 +24,7 @@ header-img: img/about-bg.jpg
 <hr/>
 <br/>
 
-💼  Currently a Senior Software Engineer at [NewDay](https://www.newday.co.uk/). Previously built an SDK and some microservices at [Paddle](https://www.paddle.com/), Windows apps at [UI Centric](https://www.uicentric.com/) and Android apps at [Nodes](https://www.nodesagency.com/). You can find more details in my [resume](/resume) page.
+💼  Currently a Senior Software Engineer at [RyftPay](https://www.ryftpay.com/). Previously built APIs and Event Sourced systems at [NewDay](https://www.newday.co.uk/), SDKs and some microservices at [Paddle](https://www.paddle.com/), Windows apps at [UI Centric](https://www.uicentric.com/) and Android apps at [Nodes](https://www.nodesagency.com/). You can find more details in my [resume](/resume) page.
 
 🎓  Obtained an [MSc in Computer Science](https://www.ua.pt/en/c/23/p) from the [University of Aveiro](https://www.ua.pt), in Portugal. My master’s thesis project invovled developing means of interaction with large public displays, and the (very old) code is in my [github](https://github.com/fmmendo/DetiInteract).
 
