@@ -9,7 +9,7 @@ title: Resume
 
 ---
 
-Results-driven Senior Software Engineer with 13+ years of experience specializing in C#, .NET, cloud architecture, and distributed systems. Proven track record of designing and implementing scalable applications. Experienced in Azure and AWS cloud platforms and with event-driven architectures and microservices.
+Senior Software Engineer with 15+ years' experience designing and building cloud-native backend systems using C# and .NET. Experienced in distributed systems, internal platforms, payment systems and operational tooling across high-growth technology companies.
 
 <br />
 
@@ -17,12 +17,10 @@ Results-driven Senior Software Engineer with 13+ years of experience specializin
 
 |                       |                                                                                           |
 | --------------------- | ----------------------------------------------------------------------------------------- |
-| **Languages**        | C#, Python, Go, C++, Java, SQL, HTML, XML, XAML                                                          |
-| **Cloud**            | Azure: Functions, CosmosDB, ServiceBus, EventGrid, DataFactory, AppInsights
-| | AWS: Lambda, CloudFormation, API Gateway, CloudWatch, S3, Athena, ECS, ECR                 |
-| **Database**         | SQL Server, CosmosDB, MySQL, SQLite, LiteDB                                                          |
-| **DevOps & CI/CD** | Azure DevOps, GitHub Actions, Jenkins, Docker, MSTest, nUnit, Moq |
-| **Software Development** | Microservices, RESTful APIs, Event Sourcing, .NET, .NET Core, WPF, UWP, MVVM, GitHub, GitHub Copilot |
+| **Core**           | Backend Development, Platform Engineering, Distributed Systems, Internal Tooling, Cloud Architecture, Event-Driven Systems, REST API Design, Microservices, Financial Systems, Agile Development |
+| **Languages & Frameworks** | C#, Python, Go, SQL, .NET / ASP.NET Core, WPF, MVVM |
+| **Cloud & Devops** | Azure (Functions, CosmosDB, ServiceBus, EventGrid, DataFactory, AppInsights), AWS (Lambda, DynamoDB, CloudFormation, API Gateway, CloudWatch, ECS, S3), Docker, GitHub Actions, Jenkins, Git |
+| **Database & Testing** | SQL Server, CosmosDB, MySQL, SQLite, MSTest, nUnit, Moq |
 
 <br />
 
@@ -30,27 +28,42 @@ Results-driven Senior Software Engineer with 13+ years of experience specializin
 
 ---
 
-### Senior Specialist, Developer - NewDay
+### Senior Software Engineer - RyftPay
+
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Oct 2025 - Present  |  London, United Kingdom</p>
+
+- Led backend development of a greenfield internal operations platform on AWS (C#/.NET), consolidating customer, payment and operational workflows for Support, Operations, and Finance into a single application.
+- Designed and implemented secure APIs and administrative tooling on AWS ECS, replacing manual database operations and engineering-assisted workflows with self-service capabilities protected by role-based access control and comprehensive auditing.
+- Worked closely with frontend engineering, UX and business stakeholders to rapidly deliver new features based on operational feedback, driving strong adoption across internal teams.
+- Developed internal tooling to support financial analysis and operational reporting, including services used during the company's Series B fundraising process.
+
+### Senior Software Engineer - Tembo
+
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Apr 2025 - Jun 2025  |  London, United Kingdom</p>
+
+- Automated the ISA transfer process by integrating internal systems through event-driven services, reducing manual operational effort.
+- Developed backend services supporting customer transfer workflows and real-time customer communications using Azure Service Bus and Customer.io.
+
+### Senior Software Engineer - NewDay
 
 <p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Jan 2020 - Feb 2025  |  London, United Kingdom</p>
 
--	Built a multi-tenant event sourcing platform with CosmosDB, ServiceBus and Azure Functions to handle workflows for 5M+ accounts.
--	Delivered a robust set of RESTful APIs for the Collections platform customer journey.
--	Led a data migration and consolidation across three systems, ensuring system integrity.
--	Participated in on-call rotations, diagnosed production issues, and implemented resilient service patterns to reduce incident frequency.
--	Mentored junior developers and assisted in hiring and onboarding new engineers.
+- Built a multi-tenant event sourcing platform with CosmosDB, ServiceBus and Azure Functions to handle workflows for 5M+ accounts.
+- Developed backend services supporting the customer journey within the Collections platform.
+- Led a data migration and consolidation across three systems, ensuring system integrity.
+- Participated in on-call rotations, diagnosed production issues, and implemented resilient service patterns to reduce incident frequency.
+- Mentored junior developers and assisted in hiring and onboarding new engineers.
 
 ### Senior .NET Software Engineer - Paddle
 
 <p style="font-size: small; color: #aaaaaa; margin-top: -25px"> April 2018 - June 2020  |  London, United Kingdom</p>
 
-- •	Designed and maintained Paddle’s [.NET Windows SDK](https://www.nuget.org/packages/Paddle.PaddleSDK/) enabling seamless in-app checkout, licensing, and analytics.
--	Managed the CI/CD pipeline, ensuring automated builds, tests, and deployment to NuGet. 
--	Prioritized developer experience through SDK usability and documentation improvements.
--	Developed an AWS Lambda solution to automate seller payouts, handling $20M+ yearly transactions.
--	Built a Python-based financial reconciliation tool, enhancing reporting efficiency.
--	Created a new payment service using Go and gRPC/protobuf.
--	Optimised vendor report generation, improving speed by 100x.
+- Developed Paddle's official .NET SDK, simplifying integration of checkout, licensing and analytics for software vendors.
+- Designed and maintained the automated build, test and release pipeline for the SDK, enabling reliable releases through NuGet.
+- Built internal financial services on AWS Lambda that automated seller payout workflows exceeding $20M annually.
+- Developed internal tooling supporting financial operations and reconciliation, reducing manual effort across finance teams.
+- Optimised reporting infrastructure by redesigning SQL queries, improving report generation performance by up to 100×.
+- Contributed to the development of a next-generation payment platform using Go, gRPC, protobuf, and AWS ECS.
 
 ### Senior Mobile Developer - Nodes
 
