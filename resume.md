@@ -46,7 +46,7 @@ Senior Software Engineer with 15+ years' experience designing and building cloud
 
 ### Senior Software Engineer - NewDay
 
-<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Jan 2020 - Feb 2025  |  London, United Kingdom</p>
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Jan 2021 - Feb 2025  |  London, United Kingdom</p>
 
 - Built a multi-tenant event sourcing platform with CosmosDB, ServiceBus and Azure Functions to handle workflows for 5M+ accounts.
 - Developed backend services supporting the customer journey within the Collections platform.
@@ -56,7 +56,7 @@ Senior Software Engineer with 15+ years' experience designing and building cloud
 
 ### Senior .NET Software Engineer - Paddle
 
-<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> April 2018 - June 2020  |  London, United Kingdom</p>
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Apr 2018 - Jun 2020  |  London, United Kingdom</p>
 
 - Developed Paddle's official .NET SDK, simplifying integration of checkout, licensing and analytics for software vendors.
 - Designed and maintained the automated build, test and release pipeline for the SDK, enabling reliable releases through NuGet.
@@ -67,12 +67,12 @@ Senior Software Engineer with 15+ years' experience designing and building cloud
 
 ### Senior Mobile Developer - Nodes
 
-<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> May 2017 - April 2018  |  London, United Kingdom</p>
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> May 2017 - Apr 2018  |  London, United Kingdom</p>
 
 - Responsible for the company's Windows apps.
 - Delivered Windows 10 (UWP), Windows 8.1 and Android Apps.
-- Set up and maintained Continuous Integration for our Windows Projets.
-- Apps include: [Riide](https://www.microsoft.com/en-us/store/p/riide/9nnfj90bv4tx), Linak Desk Control, [TokenOn](https://play.google.com/store/apps/details?id=com.tokenon.tokenon), [ScripIn](https://play.google.com/store/apps/details?id=com.scripin.scripinevent), [LGT Vestra](https://play.google.com/store/apps/details?id=uk.vestra.wealth).
+- Set up and maintained Continuous Integration for our Windows Projects.
+- Apps include: [Riide](https://www.microsoft.com/en-us/store/p/riide/9nnfj90bv4tx), Linak Desk Control, TokenOn, ScripIn, LGT Vestra.
 
 ### Windows Developer - UI Centric
 
@@ -82,11 +82,11 @@ Senior Software Engineer with 15+ years' experience designing and building cloud
 - Mentored junior developers.
 - Focused on building great user experiences for every app.
 - Developed UI-rich video-on-demand apps for [CBS](https://www.microsoft.com/en-us/store/p/cbs/9wzdncrfj0wk), [AMC](https://www.microsoft.com/en-us/store/p/amc/9nblggh1r5rn), and NBC across the Windows ecosystem.
-- Also released apps for [Just Eat](https://www.microsoft.com/en-gb/store/p/just-eat-takeaway/9wzdncrdkb2l?rtc=1), [Discovery News](https://www.microsoft.com/en-gb/store/p/discovery-news/9wzdncrdrchv?rtc=1), Camelot Loop, [MediaCore](https://blogs.msdn.microsoft.com/ukschools/2014/06/02/mediacore-enhancing-engagement-via-visual-learning-capture-app-feature/), [Epicurious](https://www.microsoft.com/en-gb/store/p/epicurious-recipes-shopping-list/9wzdncrfj2j1), [TimeOut](https://www.microsoft.com/en-us/store/p/time-out-london/9nblggh08l6q), [BigHand](https://www.microsoft.com/en-gb/store/p/bighand-go/9nblggh1z9wx), and [CBS News](https://www.microsoft.com/en-gb/store/p/cbs-news/9wzdncrdg3lf).
+- Also released apps for [Just Eat](https://www.microsoft.com/en-gb/store/p/just-eat-takeaway/9wzdncrdkb2l?rtc=1), [Discovery News](https://www.microsoft.com/en-gb/store/p/discovery-news/9wzdncrdrchv?rtc=1), Camelot Loop, MediaCore, [Epicurious](https://www.microsoft.com/en-gb/store/p/epicurious-recipes-shopping-list/9wzdncrfj2j1), [TimeOut](https://www.microsoft.com/en-us/store/p/time-out-london/9nblggh08l6q), [BigHand](https://www.microsoft.com/en-gb/store/p/bighand-go/9nblggh1z9wx), and [CBS News](https://www.microsoft.com/en-gb/store/p/cbs-news/9wzdncrdg3lf).
 
 ### C# Developer - Green Man Gaming
 
-<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Feb 2014 – Aug 2014  |  London, United Kingdom</p>
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Feb 2014 - Aug 2014  |  London, United Kingdom</p>
 
 - Worked on the Playfire desktop client, which allowed users to track their Xbox, PlayStation, and Steam game stats.
 - Led the introduction of MVVM to the team, resulting in easier to maintain code and increased test coverage.
@@ -94,14 +94,14 @@ Senior Software Engineer with 15+ years' experience designing and building cloud
 
 ### Windows Phone Software Engineer - Powa Technologies
 
-<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Oct 2013 – Jan 2014  |  London, United Kingdom</p>
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Oct 2013 - Jan 2014  |  London, United Kingdom</p>
 
 - Worked on PowaTag, a WP8 app that allowed users to purchase tagged products and services by scanning QR codes on retail websites and print ads.
 - Developed a company hub app using Xamarin and MvvmCross, targeting WP8 and Android.
 
 ### Software Developer - Arkk Solutions
 
-<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Feb 2012 – Sep 2013  |  London, United Kingdom</p>
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Feb 2012 - Sep 2013  |  London, United Kingdom</p>
 
 - Responsible for the development of Arkk’s Office Add-in.
 - Increased performance and reduced memory usage of the auto-tagger by using parallel code and inter-process communication.
@@ -111,7 +111,7 @@ Senior Software Engineer with 15+ years' experience designing and building cloud
 
 ### Programmer Analyst - Indra
 
-<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Jun 2011 – Dec 2011  |  Lisbon, Portugal</p>
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Jun 2011 - Dec 2011  |  Lisbon, Portugal</p>
 
 - Upgraded the billing system of a leading mobile carrier maintaining compatibility with legacy systems and existing data.
 - Designed and implemented a Microsoft Outlook Add-In for managing a company’s resources.
@@ -135,7 +135,7 @@ Senior Software Engineer with 15+ years' experience designing and building cloud
 
 ### MSc in Computer Engineering and Telematics
 
-<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Sep 2009 – Jul 2011  |  University of Aveiro</p>
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Sep 2009 - Jul 2011  |  University of Aveiro</p>
 
 - Principal Modules: Software Engineering, Human-Computer Interaction, Computer Graphics, Distributed Systems, Image Analysis and Understanding, Project Management.
 
@@ -154,7 +154,7 @@ Senior Software Engineer with 15+ years' experience designing and building cloud
 
 ### BSc in Computer Science
 
-<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Sep 2005 – Jul 2010  |  University of Aveiro</p>
+<p style="font-size: small; color: #aaaaaa; margin-top: -25px"> Sep 2005 - Jul 2010  |  University of Aveiro</p>
 
 - Principal Modules: Algorithms, Object-Oriented Programming, Operating Systems, Database Management Systems, Computer Architectures, Network Architectures
 

@@ -3,7 +3,7 @@ description: "Hi, I&#8217;m Filipe and I&#8217;m a Software Engineer living in L
 
 reading_time: true # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo: images/logo.png # logo visible in the topbar
+logo: logo.png # logo visible in the topbar
 excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
@@ -28,9 +28,9 @@ menu:
 # Owner/author information
 owner:
   name: Filipe Duarte
-  site: http://www.fmendo.com
+  site: https://www.fmendo.com
   avatar: images/avatar.jpg
-  bio: "Hi, I&#8217;m Filipe. I&#8217;m a software engineer from Portugal, currently living in London building cool dotnet things at NewDay."
+  bio: "Hi, I&#8217;m Filipe. I&#8217;m a software engineer from Portugal, currently living in London building cloud-native .NET things at RyftPay."
   email: me@fmendo.com
   # Twitter nick for use in Twitter cards and follow button.
   # twitter: fmmendo # if no twitter in this config, the twitter follow button will be removed

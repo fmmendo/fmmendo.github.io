@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Projects
-header-img: img/home-bg.jpg
 ---
 
 <!-- Main Content -->
@@ -14,23 +13,23 @@ This is a collection of personal projects I've worked on in the past few years (
 
 ## Web Projects
 - [**Preference-Ranker**](https://github.com/fmmendo/preference-ranker) - A generic engine for deriving rankings from pairwise preferences, using Elo/Bradley–Terry models, confidence estimates, and hierarchical datasets. The [**Muse-Ranker**](https://github.com/fmmendo/muse-ranker) project demonstrates it by ranking the band's entire discography. See it live [here (the template)](https://www.fmendo.com/preference-ranker/) and [here (the muse dataset)](https://www.fmendo.com/muse-ranker/)
-- [**MacroTool**](https://github.com/fmmendo/macrotool) - An Angular app that creates a meal plan based on your details. It's algorithm will define a distinct macronutrient intake based on your percieved level of exertion for the days you go for a workout. [See it live here](https://www.fmendo.com/macrotool) 
+- [**MacroTool**](https://github.com/fmmendo/macrotool) - An Angular app that creates a meal plan based on your details. Its algorithm will define a distinct macronutrient intake based on your perceived level of exertion for the days you go for a workout. [See it live here](https://www.fmendo.com/macrotool) 
 - [**FitMark**](https://github.com/fmmendo/fitmark) - An Angular app that benchmarks your fitness level by adding your scores to a series of fitness tests. (_in progress_)
 - [**fmendo.com**](https://www.fmendo.com) - this website. Just a simple site, built in Jekyll so I can have some virtual presence. I keep coming back to tinker with it. 
 
 ## Windows Projects
 - [**myShelf**](https://github.com/fmmendo/GoodReads) - A GoodReads client app. It contains your feed, and book shelves, you can check out friends', author's and book's details pages, and most importantly, update your reading progress.
-- [**ZeroFlip**](https://github.com/fmmendo/ZeroFlip) - A quick game which feals like a blend of sudoku, minesweeper and picross (idea borrowed from one of the minigames available in NDS pokemon games). Built in XAML using bits of the Composition API.
+- [**ZeroFlip**](https://github.com/fmmendo/ZeroFlip) - A quick game which feels like a blend of sudoku, minesweeper and picross (idea borrowed from one of the minigames available in NDS pokemon games). Built in XAML using bits of the Composition API.
 - [**MendoTools**](https://github.com/fmmendo/MendoTools) - A series of tools and helper classes I use in my UWP projects.
 - [**SimpleRest**](https://github.com/fmmendo/SimpleRest) - A simple REST client for use in UWP project. Stripped down and modified from [RestSharp](https://github.com/restsharp/RestSharp).
 
 #### Windows Phone Apps
 _These are quite old, naturally, and Windows Phone has been EOL'd but I thought it would still be worth listing these here anyway._
-- [**Muse**](https://github.com/fmmendo/Muse) - My very first windows phone app, built shortly after I left Uni. Basically puls news, tour dates and a gallery from the band's website.
+- [**Muse**](https://github.com/fmmendo/Muse) - My very first windows phone app, built shortly after I left Uni. Basically pulls news, tour dates and a gallery from the band's website.
 - [**Stronglifts Tracker**](https://github.com/fmmendo/WorkoutTracker) - Another old windows phone app. This one tracks your progress in the Stronglifts 5x5 workout program.<br/>
 
 ## Misc
-- [**Hackernews CLI**](https://github.com/fmmendo/hackernews-cli) - A quick project to test out how to build a CLI tool in .NETCore. Pulls teh top posts using HackerNews's API.
+- [**Hackernews CLI**](https://github.com/fmmendo/hackernews-cli) - A quick project to test out how to build a CLI tool in .NETCore. Pulls the top posts using HackerNews's API.
 - [**win-provision**](https://github.com/fmmendo/win-provision) - Scripts to help set up a freshly formatted windows machine (mostly) autonomously.
 
 ## University Projects
